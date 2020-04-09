@@ -4,9 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import '../App.scss'
+import { Link } from 'react-router-dom'
 
 library.add(faSearch);
-export default function header() {
+export default function Header() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -19,7 +20,7 @@ export default function header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#features">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link href="#pricing">Tag Archive</Nav.Link>
                         <Nav.Link href="#features">Author Archive</Nav.Link>
                         <Nav.Link href="#pricing">About</Nav.Link>
