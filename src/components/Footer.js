@@ -6,6 +6,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import photo1 from '../images/raja-ampat.jpg'
+import photo2 from '../images/prambanan.jpg'
+import photo3 from '../images/harimau.jpg'
 
 library.add(faSearch);
 
@@ -29,7 +31,7 @@ const Footer = () => {
                                 />
                                 <Media.Body>
                                     <div className="pMedia">
-                                    I like fishing becauseit it is always the great way of relaxing
+                                    Raja Ampat
                                     </div>
                                     <div className="pMediaDate">
                                     April 9, 2020 
@@ -41,12 +43,12 @@ const Footer = () => {
                                     width={64}
                                     height={64}
                                     className="mr-3"
-                                    src={photo1}
+                                    src={photo2}
                                     alt="Generic placeholder"
                                 />
                                 <Media.Body>
                                     <div className="pMedia">
-                                    I like fishing becauseit it is always the great way of relaxing
+                                    Candi Prambanan
                                     </div>
                                     <div className="pMediaDate">
                                     April 9, 2020 
@@ -58,12 +60,12 @@ const Footer = () => {
                                     width={64}
                                     height={64}
                                     className="mr-3"
-                                    src={photo1}
+                                    src={photo3}
                                     alt="Generic placeholder"
                                 />
                                 <Media.Body>
                                     <div className="pMedia">
-                                    I like fishing becauseit it is always the great way of relaxing
+                                    Harimau Sumatra
                                     </div>
                                     <div className="pMediaDate">
                                     April 9, 2020 
@@ -77,26 +79,20 @@ const Footer = () => {
                         <h6>TAG CLOUD</h6>
                         <ul className="list-unstyled">
                                 <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
-                                Adventures
+                                Tempat Wisata
                                 </Button>{' '}
                                 <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
-                                Getting Started
+                                Kebudayaan
                                 </Button>{' '}
                                 <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
-                                Lifestyle
+                                Alat Musik
                                 </Button>{' '}
                                 <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
-                                Music
+                                Epidemik Indonesia
                                 </Button>{' '}
                                 <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
-                                Nature
+                                Taman Nasional
                                 </Button>{' '}
-                                <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
-                                Travel
-                                </Button>{' '}
-                                <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
-                                Video
-                                </Button>
                         </ul>
                         <h6>SUBSCRIBE US</h6>
                         <ul className="list-unstyled">

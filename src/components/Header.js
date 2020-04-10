@@ -21,7 +21,7 @@ export default function Header() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link href="#pricing">Tag Archive</Nav.Link>
+                        <Nav.Link as={Link} to="/tagarchive">Tag Archive</Nav.Link>
                         <Nav.Link href="#features">Author Archive</Nav.Link>
                         <Nav.Link href="#pricing">About</Nav.Link>
                         <Nav.Link href="#features">Contact</Nav.Link>

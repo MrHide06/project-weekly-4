@@ -11,17 +11,16 @@ library.add(faArrowRight)
 const HomeChild = (props) => {
     return (
         <>
-            <Card className="card">
-                <CardImg variant="top" src={props.photo} />
-                <Card.Body className="cardBody">
-                    <Card.Title>{props.title}</Card.Title>
-                    <Card.Text as={Link} to={props.link} className="linkediting" style={{textDecoration: 'none'}}>
-                        {props.text}
-                    </Card.Text>
+            <Card className="cardTag">
+                <Card.Img 
+                height={150}
+                variant="top" src={props.photo} />
+                <Card.Body>
+                    <Card.Title rel="bookmark">{props.category}</Card.Title>
+                    <Card.Footer>
+                        <small className="text-muted">{props.posts}</small>
+                    </Card.Footer>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">{props.date}</small>
-               </Card.Footer>
             </Card>
         </>
     )

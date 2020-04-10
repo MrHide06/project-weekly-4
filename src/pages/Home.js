@@ -15,10 +15,10 @@ const Home = (props) => {
             <div>
                 <Jumbotron fluid className="jumbroton">
                     <Container className="containerJumbroton">
-                        <h1 className="h1Jumbroton">Raja Ampat</h1>
+                        <h1 className="h1Jumbroton">Selamat Datang</h1>
                         <p className="pJumbroton">
-                        Kepulauan Raja Ampat merupakan rangkaian empat gugusan pulau yang 
-                        berdekatan dan berlokasi di barat bagian Kepala Burung (Vogelkoop) Pulau Papua
+                        Blog ini berisi tentang Kebudayaan, Hewan Epidemik, Tempat Wisata, Taman Nasional, dan Alat Musik
+                        yang ada di INDONESIA
                         </p>
                     </Container>
                 </Jumbotron>

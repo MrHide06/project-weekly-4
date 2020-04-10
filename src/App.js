@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import Footer from './components/Footer'
 import Second from './pages/Second'
 import SignIn from './pages/SignIn'
+import TagArchive from './pages/TagArchive'
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path="/page/2">
               <Second />
+            </Route>
+            <Route path="/tagarchive">
+              <TagArchive />
             </Route>
             <Route path="/signin">
               <SignIn />
