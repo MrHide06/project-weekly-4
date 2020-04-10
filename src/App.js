@@ -6,6 +6,7 @@ import './App.scss'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Footer from './components/Footer'
+import Second from './pages/Second'
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/page/2">
+              <Second />
             </Route>
           </Switch>
           <Footer />
