@@ -71,9 +71,9 @@ const Second = (props) => {
                     <p>
                         <Button variant="outline-secondary" size="sm" className="buttonPage1" as={Link} to='/'>
                             <FontAwesomeIcon icon={faArrowLeft}/>{' '}
-                            Older Articles
+                            Newer Articles
                         </Button> {'  '}
-                        Page 1 of 2 
+                        Page 2 of 2 
                     </p>
                 </Container>
             </div>

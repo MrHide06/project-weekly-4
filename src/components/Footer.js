@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import photo1 from '../images/raja-ampat.jpg'
 import photo2 from '../images/prambanan.jpg'
 import photo3 from '../images/harimau.jpg'
-
+import logo from '../images/logo2.png'
 library.add(faSearch);
 
 const Footer = () => {
@@ -113,13 +113,19 @@ const Footer = () => {
                     </div>
                     {/* Column3 */}
                     <div className="col">
-                        <h6>TEXT WIDGET</h6>
-                        <p>It's a suitable place for adding small info about your site.
-                            Here you can add any text or html like this Bold Text or anything else.
-                        </p>
+                        <h6>Pesona Indonesia</h6>
+                        <img
+                            width={300}
+                            height={150}
+                            className="mr-3"
+                            src={logo}
+                            alt="Generic placeholder"
+                        />
                         <p>
-                            All widgets in this footer are reorderable. An email subscription form widget is also available within the theme. 
-                            Which you can use in place of this text widget.
+                        Wonderful Indonesia atau Pesona Indonesia adalah janji pariwisata Indonesia kepada dunia. 
+                        Kata “Wonderful” atau “Pesona” mengandung janji bahwa Indonesia kaya dengan ketakjuban, 
+                        dari segala aspek manusia maupun alamnya, yang mengusik kalbu dan menjanjikan pengalaman 
+                        baru yang menyenangkan.
                         </p>
 
                     </div>

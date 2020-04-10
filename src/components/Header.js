@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import '../App.scss'
 import { Link } from 'react-router-dom'
+import logo from '../images/logo2.png'
 
 library.add(faSearch);
 export default function Header() {
@@ -16,7 +17,15 @@ export default function Header() {
     return (
         <div>
             <Navbar collapseOnSelect expand="md" bg="light" variant="light">
-                <Navbar.Brand href="#home">Polar</Navbar.Brand>
+                <Navbar.Brand href="#home">
+                    <img
+                        src={logo}
+                        width="90"
+                        height="50"
+                        className="d-inline-block align-top"
+                        alt="React Bootstrap logo"
+                    />
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">

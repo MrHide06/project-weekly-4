@@ -43,7 +43,7 @@ const TagArchive = (props) => {
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <TagChild 
-                                photo={photo_hewan} category='HEWAN EPIDEMIK INDONESIA' 
+                                photo={photo_hewan} category='EPIDEMIK INDONESIA' 
                                 link='/'
                                 posts='2 POSTS'
                             />

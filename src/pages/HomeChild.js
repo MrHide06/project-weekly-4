@@ -7,7 +7,7 @@ const HomeChild = (props) => {
     return (
         <>
             <Card className="card">
-                <CardImg variant="top" src={props.photo} />
+                <CardImg variant="top" height={200} src={props.photo} />
                 <Card.Body className="cardBody">
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text as={Link} to={props.link} className="linkediting" style={{textDecoration: 'none'}}>
@@ -15,7 +15,7 @@ const HomeChild = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">{props.date}</small>
+                    <small className="text-muted">{props.category}</small>
                </Card.Footer>
             </Card>
         </>
