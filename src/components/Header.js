@@ -28,7 +28,7 @@ export default function Header() {
                         <Nav.Link href="#features">Error Page</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Button variant="outline-dark" size="sm">Sign In</Button>
+                        <Button variant="outline-dark" size="sm" style={{ marginRight: '3px'}}>Sign In</Button>
                         <Button variant="info" size="sm">Subscribe</Button>
                         <span className="searchIcon" id="search-button">
                             <FontAwesomeIcon icon={faSearch} className="fontIcon" onClick={handleShow} />

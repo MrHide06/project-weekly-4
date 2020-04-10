@@ -22,104 +22,113 @@ export default function Home() {
                     </Container>
                 </Jumbotron>
             </div>
-            <div>
-                <CardDeck className="cardDeck">
-                    <Card className="card">
-                        <CardImg variant="top" src={photo1} />
-                        <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                    <Card>
-                        <Card.Img variant="top" src={photo1} />
-                        <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                    <Card>
-                        <Card.Img variant="top" src={photo1} />
-                        <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                </CardDeck>
-            </div>
-            <div>
-                <CardDeck className="cardDeck">
-                    <Card className="card">
-                        <CardImg variant="top" src={photo1} />
-                        <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                    <Card>
-                        <Card.Img variant="top" src={photo1} />
-                        <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text as={Link} to="/" className="linkediting" style={{textDecoration: 'none'}}>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                    <Card>
-                        <Card.Img variant="top" src={photo1} />
-                        <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                </CardDeck>
+            <div className="main-content-area">
+                <div className="container post-listing">
+                    <div className="row is-flex">
+                        <div className="col-sm-6 col-md-4 col-xs-12">
+                            <Card className="card">
+                                <CardImg variant="top" src={photo1} />
+                                <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text as={Link} to="/" className="linkediting" style={{textDecoration: 'none'}}>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-sm-6 col-md-4 col-xs-12">
+                            <Card className="card">
+                                <CardImg variant="top" src={photo1} />
+                                <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text as={Link} to="/" className="linkediting" style={{textDecoration: 'none'}}>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-sm-6 col-md-4 col-xs-12">
+                            <Card className="card">
+                                <CardImg variant="top" src={photo1} />
+                                <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text as={Link} to="/" className="linkediting" style={{textDecoration: 'none'}}>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-sm-6 col-md-4 col-xs-12">
+                            <Card className="card">
+                                <CardImg variant="top" src={photo1} />
+                                <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text as={Link} to="/" className="linkediting" style={{textDecoration: 'none'}}>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-sm-6 col-md-4 col-xs-12">
+                            <Card className="card">
+                                <CardImg variant="top" src={photo1} />
+                                <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text as={Link} to="/" className="linkediting" style={{textDecoration: 'none'}}>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                        <div className="col-sm-6 col-md-4 col-xs-12">
+                            <Card className="card">
+                                <CardImg variant="top" src={photo1} />
+                                <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text as={Link} to="/" className="linkediting" style={{textDecoration: 'none'}}>
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                                </Card.Footer>
+                            </Card>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <Container style={{textAlign: 'center'}}>
                     <p>Page 1 of 2 {'  '}
-                        <Button variant="outline-dark" size="sm" className="buttonPage1">
+                        <Button variant="outline-secondary" size="sm" className="buttonPage1">
                             Older Articles
                             <FontAwesomeIcon icon={faArrowRight}/>
                         </Button>
                     </p>
                 </Container>
             </div>
+            <hr />
         </div>
     )
 }
