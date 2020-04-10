@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import '../App.scss'
 import { Link } from 'react-router-dom'
+import logo from '../images/logo2.png'
 
 library.add(faSearch);
 export default function Header() {
@@ -15,20 +16,28 @@ export default function Header() {
     
     return (
         <div>
-            <Navbar collapseOnSelect bg="light" variant="light">
-                <Navbar.Brand href="#home">Polar</Navbar.Brand>
+            <Navbar collapseOnSelect expand="md" bg="light" variant="light">
+                <Navbar.Brand href="#home">
+                    <img
+                        src={logo}
+                        width="90"
+                        height="50"
+                        className="d-inline-block align-top"
+                        alt="React Bootstrap logo"
+                    />
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link href="#pricing">Tag Archive</Nav.Link>
+                        <Nav.Link as={Link} to="/tagarchive">Tag Archive</Nav.Link>
                         <Nav.Link href="#features">Author Archive</Nav.Link>
                         <Nav.Link href="#pricing">About</Nav.Link>
                         <Nav.Link href="#features">Contact</Nav.Link>
                         <Nav.Link href="#features">Error Page</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Button variant="outline-dark" size="sm">Sign In</Button>
+                        <Button variant="outline-dark" size="sm" style={{ marginRight: '3px'}} as={Link} to="/signin">Sign In</Button>
                         <Button variant="info" size="sm">Subscribe</Button>
                         <span className="searchIcon" id="search-button">
                             <FontAwesomeIcon icon={faSearch} className="fontIcon" onClick={handleShow} />
@@ -49,7 +58,7 @@ export default function Header() {
                         />
                         <InputGroup.Append>
                         <Button variant="info">
-                            <FontAwesomeIcon icon={faSearch} className="fontIcon" onClick={handleClose} />
+                            <FontAwesomeIcon icon={faSearch} onClick={handleClose} />
                         </Button>
                         </InputGroup.Append>
                     </InputGroup>

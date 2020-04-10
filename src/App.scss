@@ -1,6 +1,11 @@
-.App {
-    text-align: center;
+.page-container {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
   }
+.content-wrap{
+  flex: 1;
+}
 //   body{
 //     background-color: #282c34;
 //   }
@@ -27,7 +32,7 @@
   }
   
   .App-link {
-    color: #61dafb;
+    color: #14af9b;
   }
   
   @keyframes App-logo-spin {
@@ -42,11 +47,12 @@
 .fontIcon{
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
+    margin-top: 9px;
 }
 .searchIcon{
     cursor: pointer;
     margin-left: 8px;
-    margin: 24px 0;
+    // margin: 24px 0;
     display: inline-block;
     transition: all 0.2s;
     color: #999999;
@@ -58,29 +64,78 @@
     background-image: url(./images/raja-ampat.jpg);
     height: 450px;
     background-position: center;
+    display: block;
 }
 .h1Jumbroton{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 16px;
-    font-size: 3.6rem;
-    line-height: 4.8rem;
+  color: #fff;  
 }
 .pJumbroton{
-    display: flex;
-    justify-content: center;
-    text-align: center;
     color: #fff;
-    margin-bottom: 30px;
-    // font-size: 1.6rem;
 }
 .containerJumbroton{
-    width: 750px;
+    text-align: center;
+    width: 100%;
     padding-top: 70px;
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+.card{
+    margin: 10px;
+}
+.cardBody{
+  background-color: whitesmoke;
+}
+.buttonPage1{
+  
+}
+.buttonPage1:hover{
+  background-color: #14af9b;
+  
+}
+.linkediting{
+  color:black;
+}
+.linkediting:hover{
+  color: #14af9b;
+}
+
+//Style Footer
+.main-footer{
+  color: #000000;
+  background-color: #fff;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.pMedia{
+  color: #999999;
+  font-size: 0.9rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+.pMediaDate{
+  color: #999999;
+  font-size: 0.7rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+//Style SignIn
+.signin{
+  text-align: center;
+}
+.signin{
+  width: 500px;
+}
+//style Tag Archive
+.jumbotronTag{
+  height: 200px;
+  background-image: url(./images/cover.jpg);
+  background-position: center;
+}
+.h1Tag{
+  text-align: center;
+  color: #fff;
 }
