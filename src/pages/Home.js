@@ -87,7 +87,7 @@ const Home = (props) => {
                     </p>
                 </Container>
             </div>
-            <hr />
+           
         </div>
     )
 }

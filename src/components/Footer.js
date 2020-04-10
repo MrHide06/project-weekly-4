@@ -12,6 +12,7 @@ library.add(faSearch);
 const Footer = () => {
     return (
         <div className="main-footer">
+            <hr /> 
             <div className="container">
                 <div className="row">
                     {/* Column1 */}

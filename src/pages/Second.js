@@ -77,7 +77,7 @@ const Second = (props) => {
                     </p>
                 </Container>
             </div>
-            <hr />
+            
         </div>
     )
 }
