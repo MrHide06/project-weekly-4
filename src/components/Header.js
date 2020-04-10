@@ -15,7 +15,7 @@ export default function Header() {
     
     return (
         <div>
-            <Navbar collapseOnSelect bg="light" variant="light">
+            <Navbar collapseOnSelect expand="md" bg="light" variant="light">
                 <Navbar.Brand href="#home">Polar</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -49,7 +49,7 @@ export default function Header() {
                         />
                         <InputGroup.Append>
                         <Button variant="info">
-                            <FontAwesomeIcon icon={faSearch} className="fontIcon" onClick={handleClose} />
+                            <FontAwesomeIcon icon={faSearch} onClick={handleClose} />
                         </Button>
                         </InputGroup.Append>
                     </InputGroup>

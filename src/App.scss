@@ -42,11 +42,12 @@
 .fontIcon{
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
+    margin-top: 9px;
 }
 .searchIcon{
     cursor: pointer;
     margin-left: 8px;
-    margin: 24px 0;
+    // margin: 24px 0;
     display: inline-block;
     transition: all 0.2s;
     color: #999999;
@@ -84,3 +85,22 @@
     margin-left: auto;
     margin-right: auto;
 }
+.cardDeck{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.card{
+    width: 150px;
+}
+.buttonPage1:hover{
+  background-color: aquamarine;
+}
+.linkediting{
+  color:black;
+}
+.linkediting:hover{
+  color:aquamarine;
+}
+
