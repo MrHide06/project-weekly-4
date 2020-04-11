@@ -32,7 +32,7 @@ export default function Header() {
                     <Nav className="mr-auto mx-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/tagarchive">Tag Archive</Nav.Link>
-                        <Nav.Link href="#features">Author Archive</Nav.Link>
+                        <Nav.Link as={Link} to="/authorarchive">Author Archive</Nav.Link>
                         <Nav.Link href="#pricing">About</Nav.Link>
                         <Nav.Link href="#features">Contact</Nav.Link>
                         <Nav.Link href="#features">Error Page</Nav.Link>
