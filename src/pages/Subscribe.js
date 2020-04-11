@@ -1,8 +1,11 @@
 import React from 'react'
 import { Jumbotron, Container, Button } from 'react-bootstrap'
 import {Row, Col} from 'react-bootstrap'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core'
 
+library.add(faCheck);
  const Subrek = (props) => {
 
      return (
@@ -14,10 +17,10 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
                 </div>
                 <div className="price-content">
                     <ul>
-                        <li><i className="fa fa-check"></i> Lorem Ipsum</li>
-                        <li><i className="fa fa-check"></i> Lorem Ipsum</li>
-                        <li><i className="fa fa-check"></i> Lorem Ipsum</li>
-                        <li><i className="fa fa-check"></i> Lorem Ipsum</li>
+                        <li><FontAwesomeIcon icon={faCheck} className="fontIcon" color="#30dbdd" /> Lorem Ipsum</li>
+                        <li><FontAwesomeIcon icon={faCheck} className="fontIcon" color="#30dbdd" /> Lorem Ipsum</li>
+                        <li><FontAwesomeIcon icon={faCheck} className="fontIcon" color="#30dbdd"/> Lorem Ipsum</li>
+                        <li><FontAwesomeIcon icon={faCheck} className="fontIcon" color="#30dbdd"/> Lorem Ipsum</li>
                     </ul>
                 </div>
                 <div className="price-bottom">
