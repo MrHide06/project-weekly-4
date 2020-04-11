@@ -483,3 +483,69 @@
   margin-right: 100px;
   width: 500px;
 }
+
+//Sasando
+.jumbrotonSasando{
+  background-image: url(./images/sasando.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Sasando{
+  text-align: center;
+  color: #000;  
+}
+.pSasando{
+  text-align: center;
+  color: #000;
+}
+.containerSasando{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerSasan{
+  text-align: justify;
+  width:750px;
+}
+
+.profileMedia{
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  // width: 500px;
+  // margin-right: 7px;
+  // margin-left: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.fontsumber{
+  margin-right: 50px;
+}
+.pSasando2{
+  padding-top: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  color: #000;
+  // width: 500px;
+  // margin-right: 110px;
+  // margin-left: 110px;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  // padding: 20px;
+}
+
+.inputProfile{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 500px;
+}

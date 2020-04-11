@@ -18,6 +18,7 @@ import AlatMusik from './pages/Tag/AlatMusik'
 import Epidemik from './pages/Tag/Epidemik'
 import Taman from './pages/Tag/Taman'
 import Gamelan from './pages/Tag/Gamelan'
+import Sasando from './pages/Tag/Sasando'
 
 function App() {
   return (
@@ -61,6 +62,9 @@ function App() {
             </Route>
             <Route path="/gamelan">
               <Gamelan />
+            </Route>
+            <Route path="/sasando">
+              <Sasando />
             </Route>
             <Route path="/signin">
               <SignIn />

@@ -23,7 +23,7 @@ const Second = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <SecondChild 
                                 photo={photo_musik} title='Alat Musik Sasando' 
-                                link='/' text='Sasando adalah sebuah alat musik dawai yang 
+                                link='/sasando' text='Sasando adalah sebuah alat musik dawai yang 
                                 dimainkan dengan dipetik. Instumen musik ini berasal dari pulau Rote, 
                                 Nusa Tenggara Timur.'
                                 category='Alat Musik'
