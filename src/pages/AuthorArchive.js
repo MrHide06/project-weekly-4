@@ -1,6 +1,13 @@
 import React from 'react'
-import { Jumbotron, Container } from 'react-bootstrap'
+import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 
+import '../App.scss'
+
+import Profile from './AuthorChild'
+
+import MrHide from '../images/profile1.png'
+import Dani from '../images/dani.jpg'
+import Ravi from '../images/ravi.jpeg'
 
 
 const AuthorArchive = () => {
@@ -14,7 +21,28 @@ const AuthorArchive = () => {
                 </Jumbotron>
             </div>
             <div>
-
+                <Container>
+                    <Row>
+                        <Col>
+                            <Profile
+                                src = {MrHide}
+                                text = 'Wahid Jamaalii As Shidqi'
+                            />
+                        </Col>
+                        <Col>
+                            <Profile
+                                src = {Ravi}
+                                text = 'Muhammad Khairavi'
+                            />
+                        </Col>
+                        <Col>
+                            <Profile
+                                src = {Dani}
+                                text = 'Zakiy Almaulidani Ruwenda'
+                            />
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </div>
     )
