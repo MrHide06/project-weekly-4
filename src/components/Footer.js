@@ -121,7 +121,7 @@ const Footer = () => {
                             src={logo}
                             alt="Generic placeholder"
                         />
-                        <p>
+                        <p className="pMedia">
                         Wonderful Indonesia atau Pesona Indonesia adalah janji pariwisata Indonesia kepada dunia. 
                         Kata “Wonderful” atau “Pesona” mengandung janji bahwa Indonesia kaya dengan ketakjuban, 
                         dari segala aspek manusia maupun alamnya, yang mengusik kalbu dan menjanjikan pengalaman 
@@ -132,8 +132,8 @@ const Footer = () => {
                 </div>
                 <hr />
                 <div className="row">
-                    <p className="col-sm">
-                            &copy;{new Date().getFullYear()} MrHide06 | Zaki Dani | Khairavi | All right reserved | Terms Of Service | Privacy
+                    <p className="col-sm pMedia">
+                            &copy;{new Date().getFullYear()} MrHide06 | ZakiyDani | Khairavi | All right reserved | Terms Of Service | Privacy
                     </p>
                 </div>
             </div>
@@ -141,4 +141,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
