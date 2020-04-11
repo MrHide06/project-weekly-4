@@ -9,6 +9,8 @@ import Footer from './components/Footer'
 import Second from './pages/Second'
 import SignIn from './pages/SignIn'
 import TagArchive from './pages/TagArchive'
+import Subscribe from './pages/Subscribe'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -29,6 +31,14 @@ function App() {
             <Route path="/signin">
               <SignIn />
             </Route>
+            <Route path="/subscribe">
+              <Subscribe />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+
+            
           </Switch>
           <Footer />
           </Router>      

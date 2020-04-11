@@ -33,12 +33,12 @@ export default function Header() {
                         <Nav.Link as={Link} to="/tagarchive">Tag Archive</Nav.Link>
                         <Nav.Link href="#features">Author Archive</Nav.Link>
                         <Nav.Link href="#pricing">About</Nav.Link>
-                        <Nav.Link href="#features">Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         <Nav.Link href="#features">Error Page</Nav.Link>
                     </Nav>
                     <Nav>
                         <Button variant="outline-dark" size="sm" style={{ marginRight: '3px'}} as={Link} to="/signin">Sign In</Button>
-                        <Button variant="info" size="sm">Subscribe</Button>
+                        <Button variant="info" size="sm" as={Link} to="/subscribe" >Subscribe</Button>
                         <span className="searchIcon" id="search-button">
                             <FontAwesomeIcon icon={faSearch} className="fontIcon" onClick={handleShow} />
                         </span>
