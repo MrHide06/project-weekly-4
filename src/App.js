@@ -5,6 +5,7 @@ import Header from './components/Header'
 import './App.scss'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
+import AuthorArchive from './pages/AuthorArchive'
 import Footer from './components/Footer'
 import Second from './pages/Second'
 import SignIn from './pages/SignIn'
@@ -36,6 +37,9 @@ function App() {
             </Route>
             <Route path="/page/2">
               <Second />
+            </Route>
+            <Route path="/authorarchive">
+              <AuthorArchive />
             </Route>
             <Route exact path="/tagarchive">
               <TagArchive />

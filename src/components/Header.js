@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Navbar, Nav, Form, FormControl, Button, Modal, InputGroup } from 'react-bootstrap'
+import { Navbar, Nav, Form, FormControl, Button, Modal, InputGroup, Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -16,30 +16,31 @@ export default function Header() {
     
     return (
         <div>
-            <Navbar collapseOnSelect expand="md" bg="light" variant="light">
-                <Navbar.Brand href="#home">
+            
+            <Navbar collapseOnSelect expand="md" variant="light">
+                <Navbar.Brand className="pl-5" href="#home">
                     <img
                         src={logo}
-                        width="90"
-                        height="50"
+                        width="120"
+                        height="55"
                         className="d-inline-block align-top"
                         alt="React Bootstrap logo"
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="mr-auto mx-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/tagarchive">Tag Archive</Nav.Link>
-                        <Nav.Link href="#features">Author Archive</Nav.Link>
+                        <Nav.Link as={Link} to="/authorarchive">Author Archive</Nav.Link>
                         <Nav.Link href="#pricing">About</Nav.Link>
                         <Nav.Link href="#features">Contact</Nav.Link>
                         <Nav.Link href="#features">Error Page</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Button variant="outline-dark" size="sm" style={{ marginRight: '3px'}} as={Link} to="/signin">Sign In</Button>
-                        <Button variant="info" size="sm">Subscribe</Button>
-                        <span className="searchIcon" id="search-button">
+                        <Button className="px-3" variant="outline-dark" size="sm" style={{ marginRight: '3px'}} as={Link} to="/signin">Sign In</Button>
+                        <Button className="px-3" variant="info" size="sm">Subscribe</Button>
+                        <span className="searchIcon pr-5" id="search-button">
                             <FontAwesomeIcon icon={faSearch} className="fontIcon" onClick={handleShow} />
                         </span>
                     </Nav>
@@ -68,7 +69,7 @@ export default function Header() {
                     Close
                 </Button>
                 </Modal.Footer>
-            </Modal>    
+            </Modal> 
         </div>
     )
 }
