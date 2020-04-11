@@ -196,11 +196,12 @@
 	width: 100%;
 	background-color: #efefef;
 	transition: 0.5s;
-	margin-right: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 .single-price{
-	box-shadow: 0 2px 10px #3f3f3f;
+	box-shadow: 0 2px 2px #3f3f3f;
 }
 
 .price-head {
@@ -288,8 +289,8 @@ ul li:last-child {
 
 .buy-btn {
 
-	background-color: #30dbdd;
-	border-radius: 3px;
+	background-color: #00dccb;
+	border-radius: 10px;
 	color: #fff;
 	display: inline-block;
 	font-size: 18px;

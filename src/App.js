@@ -5,6 +5,7 @@ import Header from './components/Header'
 import './App.scss'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
+import AuthorArchive from './pages/AuthorArchive'
 import Footer from './components/Footer'
 import Second from './pages/Second'
 import SignIn from './pages/SignIn'
@@ -20,6 +21,11 @@ import AlatMusik from './pages/Tag/AlatMusik'
 import Epidemik from './pages/Tag/Epidemik'
 import Taman from './pages/Tag/Taman'
 import Gamelan from './pages/Tag/Gamelan'
+import Sasando from './pages/Tag/Sasando'
+import Komodo from './pages/Tag/Komodo'
+import Elang from './pages/Tag/Elang'
+import Barisan from './pages/Tag/Barisan'
+import Wakatobi from './pages/Tag/Wakatobi'
 
 function App() {
   return (
@@ -33,6 +39,9 @@ function App() {
             </Route>
             <Route path="/page/2">
               <Second />
+            </Route>
+            <Route path="/authorarchive">
+              <AuthorArchive />
             </Route>
             <Route exact path="/tagarchive">
               <TagArchive />
@@ -64,6 +73,21 @@ function App() {
             <Route path="/gamelan">
               <Gamelan />
             </Route>
+            <Route path="/sasando">
+              <Sasando />
+            </Route>
+            <Route path="/komodo">
+              <Komodo />
+            </Route>
+            <Route path="/elang">
+              <Elang />
+            </Route>
+            <Route path="/barisan">
+              <Barisan />
+            </Route>
+            <Route path="/wakatobi">
+              <Wakatobi />
+            </Route>
             <Route path="/signin">
               <SignIn />
             </Route>
@@ -73,7 +97,9 @@ function App() {
             <Route path="/contact">
               <Contact />
             </Route>
-
+            <Route path="/subscribe">
+              <Subscribe />
+            </Route>
             
           </Switch>
           <Footer />
