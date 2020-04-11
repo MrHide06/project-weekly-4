@@ -15,7 +15,7 @@ const SignIn = () => {
                     
                 />
                 <InputGroup.Append>
-                    <Button variant="info" as={Link} to="/">
+                    <Button variant="info" as={Link} to="/" className="subsButton">
                         Send Login Link
                     </Button>
                 </InputGroup.Append>

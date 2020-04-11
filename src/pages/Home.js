@@ -42,7 +42,7 @@ const Home = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <HomeChild 
                                 photo={photo2} title='Trio Gili' 
-                                link='/' text='Tri Gili ibarat magis dan selalu membuat wisatawan 
+                                link='/trio' text='Tri Gili ibarat magis dan selalu membuat wisatawan 
                                 terpesona oleh keindahannya.'
                                 category='Tempat Wisata'
                             />
@@ -66,7 +66,7 @@ const Home = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <HomeChild 
                                 photo={photo5} title='Desa Kete Kesu' 
-                                link='/' text='Di Tana Toraja, ada satu desa wisata 
+                                link='/kete' text='Di Tana Toraja, ada satu desa wisata 
                                 yang dikenal akan adat dan kehidupan tradisionalnya yaitu,
                                 Desa wisata Kete Kesu'
                                 category='Tempat Wisata'
@@ -75,7 +75,7 @@ const Home = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <HomeChild 
                                 photo={photo6} title='Gamelan' 
-                                link='/' text='Gamelan adalah musik ansambel tradisional Jawa, Sunda, dan Bali di 
+                                link='/gamelan' text='Gamelan adalah musik ansambel tradisional Jawa, Sunda, dan Bali di 
                                 Indonesia yang memiliki sistem tangga nada (laras) slendro dan pelog.'
                                 category='Alat Musik'
                             />

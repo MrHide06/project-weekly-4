@@ -23,35 +23,35 @@ const TagArchive = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <TagChild 
                                 photo={photo_wisata} category='TEMPAT WISATA' 
-                                link='/'
+                                link='/tag/tempatwisata'
                                 posts='3 POSTS'
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <TagChild 
                                 photo={photo_kebudayaan} category='KEBUDAYAAN' 
-                                link='/'
+                                link='/tag/kebudayaan'
                                 posts='3 POSTS'
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <TagChild 
                                 photo={photo_musik} category='ALAT MUSIK' 
-                                link='/'
+                                link='/tag/alatmusik'
                                 posts='2 POSTS'
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <TagChild 
                                 photo={photo_hewan} category='EPIDEMIK INDONESIA' 
-                                link='/'
+                                link='/tag/epidemik'
                                 posts='2 POSTS'
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <TagChild 
                                 photo={photo_taman} category='TAMAN NASIONAL' 
-                                link='/'
+                                link='/tag/taman'
                                 posts='2 POSTS'
                             />
                         </div>

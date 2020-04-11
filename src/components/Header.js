@@ -38,7 +38,7 @@ export default function Header() {
                     </Nav>
                     <Nav>
                         <Button variant="outline-dark" size="sm" style={{ marginRight: '3px'}} as={Link} to="/signin">Sign In</Button>
-                        <Button variant="info" size="sm" as={Link} to="/subscribe" >Subscribe</Button>
+                        <Button variant="info" size="sm" as={Link} to="/subscribe" className="subsButton" >Subscribe</Button>
                         <span className="searchIcon" id="search-button">
                             <FontAwesomeIcon icon={faSearch} className="fontIcon" onClick={handleShow} />
                         </span>
