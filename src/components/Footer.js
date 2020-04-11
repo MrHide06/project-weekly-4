@@ -78,19 +78,19 @@ const Footer = () => {
                     <div className="col">
                         <h6>TAG CLOUD</h6>
                         <ul className="list-unstyled">
-                                <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
+                                <Button as={Link} to="/tag/tempatwisata" variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
                                 Tempat Wisata
                                 </Button>{' '}
-                                <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
+                                <Button as={Link} to="/tag/kebudayaan" variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
                                 Kebudayaan
                                 </Button>{' '}
-                                <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
+                                <Button as={Link} to="/tag/alatmusik" variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
                                 Alat Musik
                                 </Button>{' '}
-                                <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
+                                <Button as={Link} to="/tag/epidemik" variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
                                 Epidemik Indonesia
                                 </Button>{' '}
-                                <Button variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
+                                <Button as={Link} to="/tag/taman" variant="outline-secondary" size="sm" className="buttonPage1" style={{ margin: '2px'}}>
                                 Taman Nasional
                                 </Button>{' '}
                         </ul>

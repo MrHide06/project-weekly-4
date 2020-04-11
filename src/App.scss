@@ -139,3 +139,347 @@
   text-align: center;
   color: #fff;
 }
+//StyleWisata
+.jumbotronWisata{
+  height: 200px;
+  background-image: url(./images/prambanan.jpg);
+  background-position: center;
+}
+.linkeditingWisata{
+  color:black;
+  text-align: justify;
+}
+.linkeditingWisata:hover{
+  color: #14af9b;
+}
+.cardWisata{
+  text-align: justify;
+}
+//Sentani
+.jumbrotonSentani{
+  background-image: url(./images/danau-sentani.jpg);
+  height: 450px;
+  background-position: center;
+  display: block;
+}
+.h1Sentani{
+  color: #fff;  
+}
+.pSentani{
+    color: #fff;
+}
+.containerSentani{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerSen{
+  text-align: justify;
+  width:750px;
+}
+
+.profileMedia{
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  // width: 500px;
+  // margin-right: 7px;
+  // margin-left: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.fontsumber{
+  margin-right: 50px;
+}
+.pSentanii{
+  padding-top: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  color: #000;
+  // width: 500px;
+  // margin-right: 110px;
+  // margin-left: 110px;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  // padding: 20px;
+}
+
+.inputProfile{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 500px;
+}
+.sentanismall{
+  color: #fff;
+}
+//Trio
+.jumbrotonTrio{
+  background-image: url(./images/trio-gili.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Trio{
+  text-align: center;
+  color: #fff;  
+}
+.pTrio{
+  text-align: center;
+  color: #fff;
+}
+.containerTrio{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerTri{
+  text-align: justify;
+  width:750px;
+}
+
+.profileMedia{
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  // width: 500px;
+  // margin-right: 7px;
+  // margin-left: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.fontsumber{
+  margin-right: 50px;
+}
+.pTrio2{
+  padding-top: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  color: #000;
+  // width: 500px;
+  // margin-right: 110px;
+  // margin-left: 110px;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  // padding: 20px;
+}
+
+.inputProfile{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 500px;
+
+}
+//Kete
+
+.jumbrotonKete{
+  background-image: url(./images/tana-toraja.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Kete{
+  text-align: center;
+  color: #000;  
+}
+.pKete{
+  text-align: center;
+  color: #000;
+}
+.containerKete{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerKet{
+  text-align: justify;
+  width:750px;
+}
+
+.profileMedia{
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  // width: 500px;
+  // margin-right: 7px;
+  // margin-left: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.fontsumber{
+  margin-right: 50px;
+}
+.pKete2{
+  padding-top: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  color: #000;
+  // width: 500px;
+  // margin-right: 110px;
+  // margin-left: 110px;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  // padding: 20px;
+}
+
+.inputProfile{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 500px;
+}
+//StyleKebudayaan
+.jumbotronKebudayaan{
+  height: 200px;
+  background-image: url(./images/batik.jpg);
+  background-position: center;
+}
+.linkeditingKebudayaan{
+  color:black;
+  text-align: justify;
+}
+.linkeditingKebudayaan:hover{
+  color: #14af9b;
+}
+.cardKebudayaan{
+  text-align: justify;
+}
+//StyleAlatMusik
+.jumbotronAlatMusik{
+  height: 200px;
+  background-image: url(./images/angklung.jpg);
+  background-position: center;
+}
+.linkeditingAlatMusik{
+  color:black;
+  text-align: justify;
+}
+.linkeditingAlatMusik:hover{
+  color: #14af9b;
+}
+.cardAlatMusik{
+  text-align: justify;
+}
+
+//styleEpidemik
+.jumbotronEpidemik{
+  height: 200px;
+  background-image: url(./images/harimau.jpg);
+  background-position: center;
+}
+.linkeditingEpidemik{
+  color:black;
+  text-align: justify;
+}
+.linkeditingEpidemik:hover{
+  color: #14af9b;
+}
+.cardEpidemik{
+  text-align: justify;
+}
+
+//styleTaman
+.jumbotronTaman{
+  height: 200px;
+  background-image: url(./images/taman-baluran.jpg);
+  background-position: center;
+}
+.linkeditingTaman{
+  color:black;
+  text-align: justify;
+}
+.linkeditingTaman:hover{
+  color: #14af9b;
+}
+.cardTaman{
+  text-align: justify;
+}
+
+//Gamelan
+.jumbrotonGamelan{
+  background-image: url(./images/gamelan.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Gamelan{
+  text-align: center;
+  color: #fff;  
+}
+.pGamelan{
+  text-align: center;
+  color: #fff;
+}
+.containerGamelan{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerGame{
+  text-align: justify;
+  width:750px;
+}
+
+.profileMedia{
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  // width: 500px;
+  // margin-right: 7px;
+  // margin-left: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.fontsumber{
+  margin-right: 50px;
+}
+.pGamelan2{
+  padding-top: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  color: #000;
+  // width: 500px;
+  // margin-right: 110px;
+  // margin-left: 110px;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  // padding: 20px;
+}
+
+.inputProfile{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 500px;
+}
