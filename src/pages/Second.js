@@ -32,7 +32,7 @@ const Second = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <SecondChild 
                                 photo={photo_epidemik} title='Komodo Dragon' 
-                                link='/' text='Komodo adalah spesies biawak besar yang terdapat di Pulau Komodo, Rinca, Flores, Gili Motang, 
+                                link='/komodo' text='Komodo adalah spesies biawak besar yang terdapat di Pulau Komodo, Rinca, Flores, Gili Motang, 
                                 dan Gili Dasami di Nusa Tenggara Timur, Indonesia.'
                                 category='Epidemik'
                             />
@@ -48,7 +48,7 @@ const Second = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <SecondChild 
                                 photo={photo_taman} title='Taman Nasional Barisan' 
-                                link='/' text='Taman Nasional Bukit Barisan Selatan adalah sebuah taman 
+                                link='/barisan' text='Taman Nasional Bukit Barisan Selatan adalah sebuah taman 
                                 nasional yang ditujukan untuk melindungi hutan hujan tropis pulau Sumatra beserta 
                                 kekayaan alam hayati yang dimilikinya. UNESCO menjadikan Taman Nasional Bukit Barisan 
                                 Selatan sebagai Warisan Dunia'
@@ -58,7 +58,7 @@ const Second = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <SecondChild 
                                 photo={photo_hewan} title='Elang Jawa' 
-                                link='/' text='Elang jawa (Nisaetus bartelsi) adalah 
+                                link='/elang' text='Elang jawa (Nisaetus bartelsi) adalah 
                                 salah satu spesies elang berukuran sedang dari keluarga Accipitridae dan genus Nisaetus
                                 yang endemik di Pulau Jawa. Satwa ini dianggap identik dengan lambang negara Republik Indonesia, 
                                 yaitu Garuda.'

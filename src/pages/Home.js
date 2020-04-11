@@ -50,7 +50,7 @@ const Home = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <HomeChild 
                                 photo={photo3} title='Taman Nasional Wakatobi' 
-                                link='/' text='Taman Nasional Wakatobi merupakan salah satu dari 
+                                link='/wakatobi' text='Taman Nasional Wakatobi merupakan salah satu dari 
                                 50 taman nasional di Indonesia'
                                 category='Taman Nasional'
                             />

@@ -19,7 +19,7 @@ const Epidemik = (props) =>{
                     <div className="col-sm-6 col-md-4 col-xs-12">
                             <EpidemikChild 
                                 photo={photo_komodo} title='Komodo' 
-                                link='/sentani' text='Komodo adalah spesies biawak 
+                                link='/komodo' text='Komodo adalah spesies biawak 
                                 besar yang terdapat di Pulau Komodo, Rinca, Flores, 
                                 Gili Motang, dan Gili Dasami di Nusa Tenggara Timur, Indonesia.'
                             />
@@ -27,7 +27,7 @@ const Epidemik = (props) =>{
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <EpidemikChild 
                                 photo={photo_elang} title='Elang Jawa' 
-                                link='/kete' text='Elang jawa (Nisaetus bartelsi) adalah salah satu 
+                                link='/elang' text='Elang jawa (Nisaetus bartelsi) adalah salah satu 
                                 spesies elang berukuran sedang dari keluarga Accipitridae dan genus 
                                 Nisaetus yang endemik di Pulau Jawa. Satwa ini dianggap identik dengan 
                                 lambang negara Republik Indonesia, yaitu Garuda.'

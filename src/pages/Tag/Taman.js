@@ -19,7 +19,7 @@ const Taman = (props) =>{
                     <div className="col-sm-6 col-md-4 col-xs-12">
                             <TamanChild 
                                 photo={photo_barisan} title='Taman Nasional Barisan' 
-                                link='/sentani' text='Taman Nasional Bukit Barisan Selatan 
+                                link='/barisan' text='Taman Nasional Bukit Barisan Selatan 
                                 adalah sebuah taman nasional yang ditujukan untuk melindungi 
                                 hutan hujan tropis pulau Sumatra beserta kekayaan alam hayati 
                                 yang dimilikinya. UNESCO menjadikan Taman Nasional Bukit Barisan 
@@ -29,7 +29,7 @@ const Taman = (props) =>{
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <TamanChild 
                                 photo={photo_wakatobi} title='Taman Nasional Wakatobi' 
-                                link='/kete' text='Taman Nasional Wakatobi merupakan 
+                                link='/wakatobi' text='Taman Nasional Wakatobi merupakan 
                                 salah satu dari 50 taman nasional di Indonesia'
                             />
                         </div>
