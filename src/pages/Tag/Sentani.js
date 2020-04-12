@@ -7,13 +7,14 @@ import { faFacebookF, faTwitter, faLinkedinIn, faPinterestP } from '@fortawesome
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import profile from '../../images/profile2.png'
+import TagSosmed from './TagSosmed'
 
 library.add(faFacebookF, faTwitter, faLinkedinIn, faPinterestP, faMapMarkerAlt)
 const Sentani = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonSentani">
+                <Jumbotron fluid className="jumbrotonSentani darkenImage">
                     <Container className="containerSentani">
                         <h1 className="h1Sentani">Danau Sentani</h1>
                         <p className="pSentani">
@@ -44,67 +45,7 @@ const Sentani = () => {
                 Festival ini diisi dengan tarian-tarian adat di atas perahu, tarian perang khas Papua, 
                 upacara adat seperti penobatan Ondoafi, dan sajian berbagai kuliner khas Papua.
                 </p>
-                <p style={{textAlign: 'center'}}>
-                    <h6>Share this Articles</h6>
-                    <Button variant="primary">
-                        <FontAwesomeIcon icon={faFacebookF} /> Facebook
-                    </Button>{' '}
-                    <Button variant="info">
-                        <FontAwesomeIcon icon={faTwitter} /> Twitter
-                    </Button>{' '}
-                    <Button variant="outline-info">
-                        <FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn
-                    </Button>{' '}
-                    <Button variant="danger">
-                        <FontAwesomeIcon icon={faPinterestP} /> Pinterest
-                    </Button>{' '}
-                </p>
-                    <Media className="profileMedia">
-                        <img
-                            width={64}
-                            height={64}
-                            className="mr-3"
-                            src={profile}
-                            alt="Generic placeholder"
-                        />
-                        <Media.Body>
-                            <h5>Wikipedia</h5>
-                            <p>
-                            Isi artikel di atas bersumber dari
-                            <Button variant="link" href="https://id.wikipedia.org/wiki/Danau_Sentani">Wikipedia</Button>
-                            </p>
-                            <p>
-                            <Button variant="light">
-                                <FontAwesomeIcon icon={faFacebookF} className="fontsumber" />{' '}
-                            </Button>
-                            <Button variant="light">
-                                <FontAwesomeIcon icon={faTwitter} className="fontsumber" />{' '}
-                            </Button>
-                            <Button variant="light">
-                                <FontAwesomeIcon icon={faLinkedinIn} className="fontsumber" />{' '}
-                            </Button>
-                            <Button variant="light">
-                                <FontAwesomeIcon icon={faMapMarkerAlt} className="fontsumber" />{' '}
-                            </Button>
-                            </p>
-                        </Media.Body>
-                    </Media>
-                    <p className="pSentanii">
-                        <h5>Subscribe Us</h5>
-                        <p>Get the latest posts delivered right to your inbox.</p>
-                        <InputGroup className="mb-3 inputProfile">
-                            <FormControl
-                            placeholder="Enter Your Email..."
-                            aria-label="Recipient's username"
-                            aria-describedby="basic-addon2"
-                            />
-                            <InputGroup.Append>
-                            <Button variant="info" as={Link} to="/">
-                                Subscribe
-                            </Button>
-                            </InputGroup.Append>
-                        </InputGroup>
-                    </p>
+                <TagSosmed />
                 </Container>
                 
             </div>

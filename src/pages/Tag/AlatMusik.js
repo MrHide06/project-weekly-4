@@ -2,7 +2,7 @@ import React from 'react'
 import { Jumbotron, Container } from 'react-bootstrap'
 import photo_gamelan from '../../images/gamelan.jpg'
 import photo_sasando from '../../images/sasando.jpg'
-import AlatMusikChild from './AlatMusikChild'
+import TagChild from './TagChild'
 const AlatMusik = (props) =>{
     return (
         <div>
@@ -17,7 +17,7 @@ const AlatMusik = (props) =>{
                 <div className="container post-listing">
                     <div className="row is-flex" style={{textAlign: 'center'}}>
                     <div className="col-sm-6 col-md-4 col-xs-12">
-                            <AlatMusikChild 
+                            <TagChild 
                                 photo={photo_gamelan} title='Gamelan' 
                                 link='/gamelan' text='Gamelan adalah musik 
                                 ansambel tradisional Jawa, Sunda, dan Bali di Indonesia 
@@ -25,7 +25,7 @@ const AlatMusik = (props) =>{
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
-                            <AlatMusikChild 
+                            <TagChild 
                                 photo={photo_sasando} title='Sasando' 
                                 link='/sasando' text='Sasando adalah sebuah alat musik dawai yang dimainkan dengan dipetik. 
                                 Instumen musik ini berasal dari pulau Rote, Nusa Tenggara Timur.'

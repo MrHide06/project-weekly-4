@@ -18,7 +18,7 @@ const Home = (props) => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbroton">
+                <Jumbotron fluid className="jumbroton darkenImage">
                     <Container className="containerJumbroton">
                         <h1 className="h1Jumbroton">Selamat Datang</h1>
                         <p className="pJumbroton">
@@ -34,7 +34,7 @@ const Home = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <HomeChild 
                                 photo={photo1} title='Wayang Kulit' 
-                                link='/' text='Wayang kulit adalah seni tradisional 
+                                link='/wayang' text='Wayang kulit adalah seni tradisional 
                                 Indonesia yang terutama berkembang di Jawa.'
                                 category='Kebudayaan'
                             />
@@ -58,7 +58,7 @@ const Home = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <HomeChild 
                                 photo={photo4} title='Tari Saman' 
-                                link='/' text='Tari Saman adalah sebuah tarian Suku Gayo 
+                                link='/saman' text='Tari Saman adalah sebuah tarian Suku Gayo 
                                 yang biasa ditampilkan untuk merayakan peristiwa-peristiwa penting dalam adat.'
                                 category='Kebudayaan'
                             />

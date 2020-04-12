@@ -11,7 +11,7 @@ const TagArchive = (props) => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbotronTag">
+                <Jumbotron fluid className="jumbotronTag darkenImage">
                     <Container className="containerTag">
                         <h1 className="h1Tag pt-5">TAG ARCHIVE</h1>
                     </Container>

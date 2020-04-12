@@ -1,5 +1,4 @@
 import React from 'react';
-
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header'
 import './App.scss'
@@ -26,6 +25,9 @@ import Komodo from './pages/Tag/Komodo'
 import Elang from './pages/Tag/Elang'
 import Barisan from './pages/Tag/Barisan'
 import Wakatobi from './pages/Tag/Wakatobi'
+import Wayang from './pages/Tag/Wayang'
+import Saman from './pages/Tag/Saman'
+import Piring from './pages/Tag/Piring'
 
 function App() {
   return (
@@ -87,6 +89,15 @@ function App() {
             </Route>
             <Route path="/wakatobi">
               <Wakatobi />
+            </Route>
+            <Route path="/wayang">
+              <Wayang />
+            </Route>
+            <Route path="/saman">
+              <Saman />
+            </Route>
+            <Route path="/piring">
+              <Piring />
             </Route>
             <Route path="/signin">
               <SignIn />
