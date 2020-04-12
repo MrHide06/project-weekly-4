@@ -20,7 +20,7 @@ const Kebudayaan = (props) =>{
                     <div className="col-sm-6 col-md-4 col-xs-12">
                             <KebudayaanChild 
                                 photo={photo_wayang} title='Wayang Kulit' 
-                                link='/sentani' text='Wayang kulit adalah seni tradisional Indonesia yang 
+                                link='/wayang' text='Wayang kulit adalah seni tradisional Indonesia yang 
                                 terutama berkembang di Jawa.'
                             />
                         </div>

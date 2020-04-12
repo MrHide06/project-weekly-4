@@ -26,6 +26,7 @@ import Komodo from './pages/Tag/Komodo'
 import Elang from './pages/Tag/Elang'
 import Barisan from './pages/Tag/Barisan'
 import Wakatobi from './pages/Tag/Wakatobi'
+import Wayang from './pages/Tag/Wayang'
 
 function App() {
   return (
@@ -87,6 +88,9 @@ function App() {
             </Route>
             <Route path="/wakatobi">
               <Wakatobi />
+            </Route>
+            <Route path="/wayang">
+              <Wayang />
             </Route>
             <Route path="/signin">
               <SignIn />

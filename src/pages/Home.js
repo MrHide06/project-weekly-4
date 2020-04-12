@@ -34,7 +34,7 @@ const Home = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <HomeChild 
                                 photo={photo1} title='Wayang Kulit' 
-                                link='/' text='Wayang kulit adalah seni tradisional 
+                                link='/wayang' text='Wayang kulit adalah seni tradisional 
                                 Indonesia yang terutama berkembang di Jawa.'
                                 category='Kebudayaan'
                             />
