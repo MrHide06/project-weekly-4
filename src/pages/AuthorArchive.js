@@ -16,7 +16,7 @@ const AuthorArchive = () => {
             <div>
                 <Jumbotron fluid className="jumbotronAuthor">
                     <Container>
-                        <h1 className="h1Tag">AUTHOR ARCHIVE</h1>
+                        <h1 className="h1Tag pt-5">AUTHOR ARCHIVE</h1>
                     </Container>
                 </Jumbotron>
             </div>
