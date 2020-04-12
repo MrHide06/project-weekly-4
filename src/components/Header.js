@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Navbar, Nav, Form, FormControl, Button, Modal, InputGroup, Container } from 'react-bootstrap'
+import { Navbar, Nav, Form, FormControl, Button, Modal, InputGroup, Container, NavDropdown } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -35,7 +35,10 @@ export default function Header() {
                         <Nav.Link as={Link} to="/authorarchive">Author Archive</Nav.Link>
                         <Nav.Link href="#pricing">About</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                        <Nav.Link href="#features">Error Page</Nav.Link>
+                        <NavDropdown title="API" id="basic-nav-dropdown">
+                            <NavDropdown.Item as={Link} to="/api/unsplash">API UNSPLASH</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">API</NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                     <Nav>
                         <Button className="px-3" variant="outline-dark" size="sm" style={{ marginRight: '3px', border: "1px solid #ccc", color:"#999"}} as={Link} to="/signin">Sign In</Button>
