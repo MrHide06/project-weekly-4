@@ -23,8 +23,9 @@ const Footer = () => {
                         <ul className="list-unstyled">
                             <Media style={{marginBottom: '10px'}}>
                                 <img
-                                    width={64}
-                                    height={64}
+                                    className="footerClass"
+                                    width={80}
+                                    height={80}
                                     className="mr-3"
                                     src={photo1}
                                     alt="Generic placeholder"
@@ -40,8 +41,9 @@ const Footer = () => {
                             </Media>
                             <Media style={{marginBottom: '10px'}}>
                                 <img
-                                    width={64}
-                                    height={64}
+                                    className="footerClass"
+                                    width={80}
+                                    height={80}
                                     className="mr-3"
                                     src={photo2}
                                     alt="Generic placeholder"
@@ -57,8 +59,9 @@ const Footer = () => {
                             </Media>
                             <Media>
                                 <img
-                                    width={64}
-                                    height={64}
+                                    className="footerClass"
+                                    width={80}
+                                    height={80}
                                     className="mr-3"
                                     src={photo3}
                                     alt="Generic placeholder"
@@ -96,7 +99,7 @@ const Footer = () => {
                         </ul>
                         <h6>SUBSCRIBE US</h6>
                         <ul className="list-unstyled">
-                            <p style={{color: 'grey'}}>Get the latest posts delivered right to your inbox.</p>
+                            <p style={{color: '#999'}}>Get the latest posts delivered right to your inbox.</p>
                             <InputGroup className="mb-3">
                                 <FormControl
                                 placeholder="Enter Your Email..."

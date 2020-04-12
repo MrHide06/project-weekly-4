@@ -2,7 +2,12 @@ import React from 'react'
 import '../../App.scss'
 import { Jumbotron, Container, Button, Media, InputGroup, FormControl } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+<<<<<<< HEAD
 import Share from './Share'
+=======
+import profile from '../../images/profile2.png'
+import TagSosmed from './TagSosmed'
+>>>>>>> 35b55b8c23aa4be68d36d154ef2f78641042b0a8
 
 const Barisan = () => {
     return (
@@ -36,7 +41,11 @@ const Barisan = () => {
                 keseluruhan) dan berada di wilayah Kaur dari Provinsi Bengkulu. Provinsi Sumatra 
                 Selatan juga sangat penting bagi tumpang-tindih perbatasan taman dengan perbatasan provinsi.
                 </p>
+<<<<<<< HEAD
                 <Share href="https://id.wikipedia.org/wiki/Taman_Nasional_Bukit_Barisan_Selatan" />
+=======
+                <TagSosmed />
+>>>>>>> 35b55b8c23aa4be68d36d154ef2f78641042b0a8
                 </Container>
                 
             </div>

@@ -60,8 +60,12 @@
 }
 
 .subsButton {
-  background-color: #00dccb;
-  border: 1px solid #00dccb;
+  background-color: #00ccbb;
+  border: 1px solid #00bcab;
+}
+
+.price-content ul li {
+  padding-left: 2px;
 }
 
 //Style Home
@@ -93,7 +97,8 @@
   background-color: whitesmoke;
 }
 .buttonPage1{
-  
+  border: 1px solid #ccc;
+  color: #999;
 }
 .buttonPage1:hover{
   background-color: #14af9b;
@@ -145,6 +150,11 @@
   color: #fff;
 }
 
+// Style Footer
+
+.list-unstyled {
+  padding-bottom: 15px;
+}
 
 //Style Contact
 
@@ -152,7 +162,7 @@
   background-image: url(./images/nightborobudur.jpg);
   background-position: center;
   display: block;
-  height: 450px;
+  height: 330px;
 }
 
 .h1Contact {
@@ -194,10 +204,10 @@
 	display: inline;
 	float: left;
 	width: 100%;
-	background-color: #efefef;
+	background-color: #fafafa;
 	transition: 0.5s;
   margin-right: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .single-price{
@@ -205,12 +215,13 @@
 }
 
 .price-head {
-	background-color: #00dccb;
+	background-color: #00ccbb;
 	display: inline-block;
 	float: left;
 	padding: 10px 5px;
 	text-align: center;
-	width: 100%;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
 }
 
 .price-head h2 {
@@ -287,13 +298,14 @@ ul li:last-child {
 
 .buy-btn {
 
-	background-color: #00dccb;
-	border-radius: 10px;
+	background-color: #00ccbb;
+	border-radius: 3px;
 	color: #fff;
 	display: inline-block;
 	font-size: 18px;
 	padding: 2px 35px;
-	transition: all 0.5s;
+  transition: all 0.5s;
+  border: 1px solid #00bcab
 
 }
 
@@ -924,11 +936,11 @@ ul li:last-child {
 }
 .h1Wakatobi{
   text-align: center;
-  color: #000;  
+  color: #f9f9f9;  
 }
 .pWakatobi{
   text-align: center;
-  color: #000;
+  color: #f9f9f9;
 }
 .containerWakatobi{
     text-align: center;

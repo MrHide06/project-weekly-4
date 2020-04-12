@@ -3,8 +3,12 @@ import '../../App.scss'
 import { Jumbotron, Container, Button, Media, InputGroup, FormControl } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import profile from '../../images/profile2.png'
+<<<<<<< HEAD
 import Share from './Share'
 
+=======
+import TagSosmed from './TagSosmed'
+>>>>>>> 35b55b8c23aa4be68d36d154ef2f78641042b0a8
 
 const Wakatobi = () => {
     return (
@@ -37,7 +41,11 @@ const Wakatobi = () => {
                 seperti menyelam, snorkeling dan berenang untuk melihat gugusan terumbu karang yang indah 
                 dan berbagai hewan bawah laut dan juga menyaksikan berbagai kebudayaan masyarakat setempat.
                 </p>
+<<<<<<< HEAD
                 <Share href="https://id.wikipedia.org/wiki/Taman_Nasional_Wakatobi" />
+=======
+                <TagSosmed />
+>>>>>>> 35b55b8c23aa4be68d36d154ef2f78641042b0a8
                 </Container>
                 
             </div>
