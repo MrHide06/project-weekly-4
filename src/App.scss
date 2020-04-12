@@ -346,16 +346,7 @@ ul li:last-child {
   background-position: center;
   display: block;
 }
-.linkeditingWisata{
-  color:black;
-  text-align: justify;
-}
-.linkeditingWisata:hover{
-  color: #14af9b;
-}
-.cardWisata{
-  text-align: justify;
-}
+
 //Sentani
 .jumbrotonSentani{
   background-image: url(./images/danau-sentani.jpg);
@@ -559,32 +550,15 @@ ul li:last-child {
   background-position: center;
   display: block;
 }
-.linkeditingKebudayaan{
-  color:black;
-  text-align: justify;
-}
-.linkeditingKebudayaan:hover{
-  color: #14af9b;
-}
-.cardKebudayaan{
-  text-align: justify;
-}
+
+
 //StyleAlatMusik
 .jumbotronAlatMusik{
   height: 200px;
   background-image: url(./images/angklung.jpg);
   background-position: center;
 }
-.linkeditingAlatMusik{
-  color:black;
-  text-align: justify;
-}
-.linkeditingAlatMusik:hover{
-  color: #14af9b;
-}
-.cardAlatMusik{
-  text-align: justify;
-}
+
 
 //styleEpidemik
 .jumbotronEpidemik{
@@ -593,16 +567,7 @@ ul li:last-child {
   background-position: center;
   display: block;
 }
-.linkeditingEpidemik{
-  color:black;
-  text-align: justify;
-}
-.linkeditingEpidemik:hover{
-  color: #14af9b;
-}
-.cardEpidemik{
-  text-align: justify;
-}
+
 
 //styleTaman
 .jumbotronTaman{
@@ -611,16 +576,7 @@ ul li:last-child {
   background-position: center;
   display: block;
 }
-.linkeditingTaman{
-  color:black;
-  text-align: justify;
-}
-.linkeditingTaman:hover{
-  color: #14af9b;
-}
-.cardTaman{
-  text-align: justify;
-}
+
 
 //Gamelan
 .jumbrotonGamelan{
@@ -1021,7 +977,7 @@ ul li:last-child {
 
 // Page Author Archive
 .jumbotronAuthor{  
-  height: 200px;
+  height: 230px;
   background-image: url(./images/rinjaniMount.jpg);
   background-position: center;
   display: block;
@@ -1034,3 +990,134 @@ ul li:last-child {
   width: 250px;
 }
 
+//Wayang
+.jumbotronWayang{
+  background-image: url(./images/wayang-kulit.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Wayang{
+  text-align: center;
+  color: #000;  
+}
+.pWayang{
+  text-align: center;
+  color: #000;
+}
+.containerWayang{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+//Saman
+.jumbotronSaman{
+  background-image: url(./images/tari-saman.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Saman{
+  text-align: center;
+  color: #000;  
+}
+.pSaman{
+  text-align: center;
+  color: #000;
+}
+.containerSaman{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+//Piring
+.jumbotronPiring{
+  background-image: url(./images/tari-piring.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Piring{
+  text-align: center;
+  color: #000;  
+}
+.pPiring{
+  text-align: center;
+  color: #000;
+}
+.containerPiring{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+//Isi
+.containerIsi{
+  text-align: justify;
+  width:750px;
+}
+
+//Share
+.profileMedia{
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  // width: 500px;
+  // margin-right: 7px;
+  // margin-left: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.fontsumber{
+  margin-right: 50px;
+}
+.pShare{
+  padding-top: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  color: #000;
+  // width: 500px;
+  // margin-right: 110px;
+  // margin-left: 110px;
+  // margin-top: 20px;
+  // margin-bottom: 20px;
+  // padding: 20px;
+}
+
+.inputProfile{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 500px;
+}
+
+//TagChild
+.cardTagChild{
+  text-align: justify;
+}
+.linkeditingTagChild{
+  color:black;
+  text-align: justify;
+}
+.linkeditingTagChild:hover{
+  color: #14af9b;
+}

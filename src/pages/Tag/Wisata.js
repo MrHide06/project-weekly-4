@@ -3,7 +3,7 @@ import { Jumbotron, Container } from 'react-bootstrap'
 import photo_danau from '../../images/danau-sentani.jpg'
 import photo_toraja from '../../images/tana-toraja.jpg'
 import photo_gili from '../../images/trio-gili.jpg'
-import WisataChild from './WisataChild'
+import TagChild from './TagChild'
 const Wisata = (props) =>{
     return (
         <div>
@@ -18,7 +18,7 @@ const Wisata = (props) =>{
                 <div className="container post-listing">
                     <div className="row is-flex" style={{textAlign: 'center'}}>
                     <div className="col-sm-6 col-md-4 col-xs-12">
-                            <WisataChild 
+                            <TagChild 
                                 photo={photo_danau} title='Danau Sentani' 
                                 link='/sentani' text='Danau Sentani adalah danau yang terletak di Papua Indonesia.
                                  Danau Sentani berada di bawah lereng Pegunungan Cagar Alam Cyclops yang memiliki 
@@ -26,7 +26,7 @@ const Wisata = (props) =>{
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
-                            <WisataChild 
+                            <TagChild 
                                 photo={photo_toraja} title='Desa Kete Kesu' 
                                 link='/kete' text='Di Tana Toraja, ada satu desa wisata 
                                 yang dikenal akan adat dan kehidupan tradisionalnya yaitu,
@@ -34,7 +34,7 @@ const Wisata = (props) =>{
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
-                            <WisataChild 
+                            <TagChild 
                                 photo={photo_gili} title='Trio Gili' 
                                 link='/trio' text='Trio Gili ibarat magis dan selalu membuat wisatawan 
                                 terpesona oleh keindahannya.'

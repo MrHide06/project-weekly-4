@@ -2,7 +2,7 @@ import React from 'react'
 import { Jumbotron, Container } from 'react-bootstrap'
 import photo_barisan from '../../images/taman-barisan.jpg'
 import photo_wakatobi from '../../images/taman-wakatobi.jpg'
-import TamanChild from './TamanChild'
+import TagChild from './TagChild'
 const Taman = (props) =>{
     return (
         <div>
@@ -17,7 +17,7 @@ const Taman = (props) =>{
                 <div className="container post-listing">
                     <div className="row is-flex" style={{textAlign: 'center'}}>
                     <div className="col-sm-6 col-md-4 col-xs-12">
-                            <TamanChild 
+                            <TagChild 
                                 photo={photo_barisan} title='Taman Nasional Barisan' 
                                 link='/barisan' text='Taman Nasional Bukit Barisan Selatan 
                                 adalah sebuah taman nasional yang ditujukan untuk melindungi 
@@ -27,7 +27,7 @@ const Taman = (props) =>{
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
-                            <TamanChild 
+                            <TagChild 
                                 photo={photo_wakatobi} title='Taman Nasional Wakatobi' 
                                 link='/wakatobi' text='Taman Nasional Wakatobi merupakan 
                                 salah satu dari 50 taman nasional di Indonesia'

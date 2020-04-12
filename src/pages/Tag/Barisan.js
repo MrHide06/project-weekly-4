@@ -1,15 +1,11 @@
 import React from 'react'
 import '../../App.scss'
 import { Jumbotron, Container, Button, Media, InputGroup, FormControl } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faFacebookF, faTwitter, faLinkedinIn, faPinterestP } from '@fortawesome/free-brands-svg-icons'
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import profile from '../../images/profile2.png'
 import TagSosmed from './TagSosmed'
 
-library.add(faFacebookF, faTwitter, faLinkedinIn, faPinterestP, faMapMarkerAlt)
+
 const Barisan = () => {
     return (
         <div>

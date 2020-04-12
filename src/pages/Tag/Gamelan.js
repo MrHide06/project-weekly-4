@@ -7,7 +7,9 @@ import { faFacebookF, faTwitter, faLinkedinIn, faPinterestP } from '@fortawesome
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import profile from '../../images/profile2.png'
+
 import TagSosmed from './TagSosmed'
+
 
 library.add(faFacebookF, faTwitter, faLinkedinIn, faPinterestP, faMapMarkerAlt)
 const Gamelan = () => {

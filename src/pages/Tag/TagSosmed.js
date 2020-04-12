@@ -8,7 +8,7 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import profile from '../../images/profile2.png'
 
-const TagSosmed = () => {
+const TagSosmed = (props) => {
     return (
         <div>
         <p style={{textAlign: 'center'}}>
@@ -39,7 +39,7 @@ const TagSosmed = () => {
                             <h5>Wikipedia</h5>
                             <p>
                             Isi artikel di atas bersumber dari
-                            <Button variant="link" href="https://id.wikipedia.org/wiki/Gamelan">Wikipedia</Button>
+                            <Button variant="link" href={props.href}>Wikipedia</Button>
                             </p>
                             <p>
                             <Button variant="light">

@@ -40,7 +40,7 @@ const Second = (props) => {
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <SecondChild 
                                 photo={photo_kebudayaan} title='Tari Piring' 
-                                link='/' text='Tari piring atau tari piriang dalam bahasa Minangkabau 
+                                link='/piring' text='Tari piring atau tari piriang dalam bahasa Minangkabau 
                                 adalah tarian tradisional Minangkabau yang melibatkan atraksi piring.'
                                 category='Kebudayaan'
                             />
