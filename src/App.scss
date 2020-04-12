@@ -979,8 +979,6 @@ ul li:last-child {
 .jumbotronAuthor{  
   height: 275px;
   background-image: url(./images/bromo.jpg);
-  height: 230px;
-  background-image: url(./images/rinjaniMount.jpg);
   background-position: center;
   display: block;
 
@@ -990,6 +988,13 @@ ul li:last-child {
 }
 .figImage{
   width: 250px;
+}
+// Page About
+.jumbotronAbout{
+  height: 275px;
+  background-image: url(./images/danau-sentani.jpg);
+  background-position: center;
+  display: block;
 }
 
 //Wayang

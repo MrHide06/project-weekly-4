@@ -33,7 +33,7 @@ export default function Header() {
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/tagarchive">Tag Archive</Nav.Link>
                         <Nav.Link as={Link} to="/authorarchive">Author Archive</Nav.Link>
-                        <Nav.Link href="#pricing">About</Nav.Link>
+                        <Nav.Link as={Link} to="/about">About</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         <NavDropdown title="API" id="basic-nav-dropdown">
                             <NavDropdown.Item as={Link} to="/api/unsplash">API UNSPLASH</NavDropdown.Item>

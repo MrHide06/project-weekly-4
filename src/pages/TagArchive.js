@@ -13,7 +13,7 @@ const TagArchive = (props) => {
             <div>
                 <Jumbotron fluid className="jumbotronTag darkenImage">
                     <Container className="containerTag">
-                        <h1 className="h1Tag pt-5">TAG ARCHIVE</h1>
+                        <h1 className="h1Tag pt-5">Tag Archive</h1>
                     </Container>
                 </Jumbotron>
             </div>
