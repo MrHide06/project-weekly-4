@@ -1,8 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [Pesona Indonesia Project](https://pesona-indonesia.netlify.com/)
 
-## Available Scripts
+## Anggota kami 
 
-In the project directory, you can run:
+- Wahid Jamaalii As Shidqi
+- Muhamad Khairavi Riansyah
+- Zakiy Almaulidani Ruwenda
+
+## Refrensi Project
+Project ini merupakan sebuah blog hasil Re-create dari template [Themeforest](http://preview.themeforest.net/item/polar-minimal-blog-and-magazine-ghost-themezip/full_screen_preview/19974381?_ga=2.260842189.1561046835.1586410980-101504852.1586410878).
+
+Dalam blog ini kami mengambil tema "Budaya dan Kekayaan Alam Indonesia", itulah mengapa blog ini diberi nama "Pesona Indonesia" 
+
+## 
 
 ### `yarn start`
 
