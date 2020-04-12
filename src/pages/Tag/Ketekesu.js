@@ -14,8 +14,8 @@ const Ketekesu = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonKete darkenImage">
-                    <Container className="containerKete">
+                <Jumbotron fluid className="jumbrotonKete jumbotronPage darkenImage">
+                    <Container className="containerPage">
                         <h1 className="h1Kete">Desa Kete Kesu</h1>
                         <p className="pKete">
                         Saturday, Apr 10, 2020
