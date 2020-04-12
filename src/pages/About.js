@@ -1,5 +1,8 @@
 import React from 'react'
-import { Jumbotron, Container } from 'react-bootstrap'
+import { Jumbotron, Container, Figure } from 'react-bootstrap'
+import FigureImage from 'react-bootstrap/FigureImage'
+
+import Pesona from '../images/arti-pesona.jpg'
 
 
 const About = () => {
@@ -14,7 +17,13 @@ const About = () => {
             </div>
             <div>
                 <Container>
-
+                    <Figure>
+                        <FigureImage
+                            src={Pesona}
+                            width={4000}
+                            height={3000}
+                        />
+                    </Figure>
                 </Container>
             </div>
         </div>

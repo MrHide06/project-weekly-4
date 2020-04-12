@@ -23,19 +23,19 @@ const AuthorArchive = () => {
             <div>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col className="px-5">
                             <Profile
                                 src = {MrHide}
                                 text = 'Wahid Jamaalii As Shidqi'
                             />
                         </Col>
-                        <Col>
+                        <Col className="px-5">
                             <Profile
                                 src = {Ravi}
-                                text = 'Muhammad Khairavi'
+                                text = 'Muhamad Khairavi Riansyah'
                             />
                         </Col>
-                        <Col>
+                        <Col className="pl-5">
                             <Profile
                                 src = {Dani}
                                 text = 'Zakiy Almaulidani Ruwenda'
