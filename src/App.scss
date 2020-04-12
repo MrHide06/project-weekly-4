@@ -321,16 +321,7 @@ ul li:last-child {
   background-image: url(./images/prambanan.jpg);
   background-position: center;
 }
-.linkeditingWisata{
-  color:black;
-  text-align: justify;
-}
-.linkeditingWisata:hover{
-  color: #14af9b;
-}
-.cardWisata{
-  text-align: justify;
-}
+
 //Sentani
 .jumbrotonSentani{
   background-image: url(./images/danau-sentani.jpg);
@@ -533,32 +524,15 @@ ul li:last-child {
   background-image: url(./images/batik.jpg);
   background-position: center;
 }
-.linkeditingKebudayaan{
-  color:black;
-  text-align: justify;
-}
-.linkeditingKebudayaan:hover{
-  color: #14af9b;
-}
-.cardKebudayaan{
-  text-align: justify;
-}
+
+
 //StyleAlatMusik
 .jumbotronAlatMusik{
   height: 200px;
   background-image: url(./images/angklung.jpg);
   background-position: center;
 }
-.linkeditingAlatMusik{
-  color:black;
-  text-align: justify;
-}
-.linkeditingAlatMusik:hover{
-  color: #14af9b;
-}
-.cardAlatMusik{
-  text-align: justify;
-}
+
 
 //styleEpidemik
 .jumbotronEpidemik{
@@ -566,16 +540,7 @@ ul li:last-child {
   background-image: url(./images/harimau.jpg);
   background-position: center;
 }
-.linkeditingEpidemik{
-  color:black;
-  text-align: justify;
-}
-.linkeditingEpidemik:hover{
-  color: #14af9b;
-}
-.cardEpidemik{
-  text-align: justify;
-}
+
 
 //styleTaman
 .jumbotronTaman{
@@ -583,16 +548,7 @@ ul li:last-child {
   background-image: url(./images/taman-baluran.jpg);
   background-position: center;
 }
-.linkeditingTaman{
-  color:black;
-  text-align: justify;
-}
-.linkeditingTaman:hover{
-  color: #14af9b;
-}
-.cardTaman{
-  text-align: justify;
-}
+
 
 //Gamelan
 .jumbrotonGamelan{
@@ -1122,4 +1078,16 @@ ul li:last-child {
   margin-left: 100px;
   margin-right: 100px;
   width: 500px;
+}
+
+//TagChild
+.cardTagChild{
+  text-align: justify;
+}
+.linkeditingTagChild{
+  color:black;
+  text-align: justify;
+}
+.linkeditingTagChild:hover{
+  color: #14af9b;
 }

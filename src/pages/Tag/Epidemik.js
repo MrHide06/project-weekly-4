@@ -2,7 +2,7 @@ import React from 'react'
 import { Jumbotron, Container } from 'react-bootstrap'
 import photo_komodo from '../../images/komodo.jpg'
 import photo_elang from '../../images/elang-jawa.jpg'
-import EpidemikChild from './EpidemikChild'
+import TagChild from './TagChild'
 const Epidemik = (props) =>{
     return (
         <div>
@@ -17,7 +17,7 @@ const Epidemik = (props) =>{
                 <div className="container post-listing">
                     <div className="row is-flex" style={{textAlign: 'center'}}>
                     <div className="col-sm-6 col-md-4 col-xs-12">
-                            <EpidemikChild 
+                            <TagChild 
                                 photo={photo_komodo} title='Komodo' 
                                 link='/komodo' text='Komodo adalah spesies biawak 
                                 besar yang terdapat di Pulau Komodo, Rinca, Flores, 
@@ -25,7 +25,7 @@ const Epidemik = (props) =>{
                             />
                         </div>
                         <div className="col-sm-6 col-md-4 col-xs-12">
-                            <EpidemikChild 
+                            <TagChild 
                                 photo={photo_elang} title='Elang Jawa' 
                                 link='/elang' text='Elang jawa (Nisaetus bartelsi) adalah salah satu 
                                 spesies elang berukuran sedang dari keluarga Accipitridae dan genus 

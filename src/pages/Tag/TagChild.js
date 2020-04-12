@@ -8,18 +8,18 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import '../../App.scss'
 library.add(faArrowRight)
 
-const TamanChild = (props) => {
+const TagChild = (props) => {
     return (
         <>
-            <Card className="cardTaman">
+            <Card className="cardTagChild">
                 <Card.Img 
                 height={150}
                 variant="top" src={props.photo} />
                 <Card.Body>
-                    <Card.Title as={Link} to={props.link} className="linkeditingTaman" style={{textDecoration: 'none'}}>
+                    <Card.Title as={Link} to={props.link} className="linkeditingTagChild" style={{textDecoration: 'none'}}>
                         <h4>{props.title}</h4>
                     </Card.Title>
-                    <Card.Text as={Link} to={props.link} className="linkeditingTaman" style={{textDecoration: 'none', textAlign: 'justify'}}>
+                    <Card.Text as={Link} to={props.link} className="linkeditingTagChild" style={{textDecoration: 'none', textAlign: 'justify'}}>
                         {props.text}
                     </Card.Text>
                     <Card.Footer>
@@ -30,4 +30,4 @@ const TamanChild = (props) => {
         </>
     )
 }
-export default TamanChild
+export default TagChild
