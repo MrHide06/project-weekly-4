@@ -29,9 +29,9 @@ class Pokemon extends Component {
                 <Container classname="Pokemon">
                     {this.state.imgs.map((item, index) => (
                         <div className="main-content-area" key={index}>
-                            <div className="container post-listing">
+                            <div className="container post-listing col-md-3">
                                 <div className="row is-flex">
-                                    <div className="col-sm-6 col-md-4 col-xs-12">
+                                    <div className="col text-center">
                                         <PokemonChild
                                              photo={item.img} title={item.name} 
                                             // fcd91ac18767190e0a6c9a802d165271
