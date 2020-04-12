@@ -20,7 +20,7 @@ const Contact = () => {
 
             <Jumbotron fluid className="jumbotron jContact darkenImage">
                 <Container className="containerJumbroton">
-                    <h1 className="h1Contact">Contact</h1>
+                    <h1 className="h1Contact pb-5">Contact</h1>
                 </Container>
             </Jumbotron>
             <Container>

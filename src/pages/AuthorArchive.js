@@ -16,26 +16,26 @@ const AuthorArchive = () => {
             <div>
                 <Jumbotron fluid className="jumbotronAuthor darkenImage">
                     <Container>
-                        <h1 className="h1Tag">AUTHOR ARCHIVE</h1>
+                        <h1 className="h1Tag pt-5">Author Archive</h1>
                     </Container>
                 </Jumbotron>
             </div>
             <div>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col className="px-5">
                             <Profile
                                 src = {MrHide}
                                 text = 'Wahid Jamaalii As Shidqi'
                             />
                         </Col>
-                        <Col>
+                        <Col className="px-5">
                             <Profile
                                 src = {Ravi}
                                 text = 'Muhamad Khairavi Riansyah'
                             />
                         </Col>
-                        <Col>
+                        <Col className="pl-5">
                             <Profile
                                 src = {Dani}
                                 text = 'Zakiy Almaulidani Ruwenda'

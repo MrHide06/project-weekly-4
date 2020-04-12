@@ -10,7 +10,6 @@ import FigureCaption from 'react-bootstrap/FigureCaption'
 const Profile = (props) => {
     return(
         <div>
-            <Container>
                 <Figure className="figure">
                     <FigureImage thumbnail className="figImage"
                         src={props.src}
@@ -19,7 +18,6 @@ const Profile = (props) => {
                         {props.text}
                     </FigureCaption>
                 </Figure>
-            </Container>
         </div>
     )
 }

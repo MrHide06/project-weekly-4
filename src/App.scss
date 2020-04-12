@@ -164,7 +164,7 @@
 }
 //style Tag Archive
 .jumbotronTag{
-  height: 200px;
+  height: 275px;
   background-image: url(./images/cover.jpg);
   background-position: center;
   display: block;
@@ -414,7 +414,7 @@ ul li:last-child {
 }
 //Trio
 .jumbrotonTrio{
-  background-image: url(./images/triiogili.jpg);
+  background-image: url(./images/trio-gili.jpg);
   height: 450px;
   background-position: center;
   background-repeat: no-repeat;
@@ -978,8 +978,8 @@ ul li:last-child {
 
 // Page Author Archive
 .jumbotronAuthor{  
-  height: 230px;
-  background-image: url(./images/rinjaniMount.jpg);
+  height: 275px;
+  background-image: url(./images/bromo.jpg);
   background-position: center;
   display: block;
 
@@ -989,6 +989,13 @@ ul li:last-child {
 }
 .figImage{
   width: 250px;
+}
+// Page About
+.jumbotronAbout{
+  height: 275px;
+  background-image: url(./images/danau-sentani.jpg);
+  background-position: center;
+  display: block;
 }
 
 //Wayang
