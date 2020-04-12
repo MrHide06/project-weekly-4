@@ -7,11 +7,9 @@ import { faFacebookF, faTwitter, faLinkedinIn, faPinterestP } from '@fortawesome
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import profile from '../../images/profile2.png'
-<<<<<<< HEAD
-import Share from './Share'
-=======
+
 import TagSosmed from './TagSosmed'
->>>>>>> 35b55b8c23aa4be68d36d154ef2f78641042b0a8
+
 
 library.add(faFacebookF, faTwitter, faLinkedinIn, faPinterestP, faMapMarkerAlt)
 const Gamelan = () => {
@@ -48,11 +46,7 @@ const Gamelan = () => {
                 beksan (seni tari), wayang (seni pertunjukan), uyon-uyon (upacara adat/hajatan), dan lain-lain. 
                 Saat ini, gamelan banyak digunakan di pulau Jawa, Madura, Bali, dan Lombok.
                 </p>
-<<<<<<< HEAD
-                <Share href="https://id.wikipedia.org/wiki/Gamelan" />
-=======
                 <TagSosmed />
->>>>>>> 35b55b8c23aa4be68d36d154ef2f78641042b0a8
                 </Container>
                 
             </div>

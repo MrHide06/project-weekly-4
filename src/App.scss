@@ -1030,6 +1030,58 @@ ul li:last-child {
     margin-left: auto;
     margin-right: auto;
 }
+//Saman
+.jumbotronSaman{
+  background-image: url(./images/tari-saman.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Saman{
+  text-align: center;
+  color: #000;  
+}
+.pSaman{
+  text-align: center;
+  color: #000;
+}
+.containerSaman{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+//Piring
+.jumbotronPiring{
+  background-image: url(./images/tari-piring.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.h1Piring{
+  text-align: center;
+  color: #000;  
+}
+.pPiring{
+  text-align: center;
+  color: #000;
+}
+.containerPiring{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 //Isi
 .containerIsi{
   text-align: justify;

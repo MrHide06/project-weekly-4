@@ -27,7 +27,7 @@ const Kebudayaan = (props) =>{
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <KebudayaanChild 
                                 photo={photo_saman} title='Tari Saman' 
-                                link='/kete' text='Tari Saman adalah sebuah tarian 
+                                link='/saman' text='Tari Saman adalah sebuah tarian 
                                 Suku Gayo yang biasa ditampilkan untuk merayakan peristiwa-peristiwa 
                                 penting dalam adat.'
                             />
@@ -35,7 +35,7 @@ const Kebudayaan = (props) =>{
                         <div className="col-sm-6 col-md-4 col-xs-12">
                             <KebudayaanChild 
                                 photo={photo_piring} title='Tari Piring' 
-                                link='/trio' text='Tari piring atau tari piriang dalam bahasa Minangkabau 
+                                link='/piring' text='Tari piring atau tari piriang dalam bahasa Minangkabau 
                                 adalah tarian tradisional Minangkabau yang melibatkan atraksi piring.'
                             />
                         </div>

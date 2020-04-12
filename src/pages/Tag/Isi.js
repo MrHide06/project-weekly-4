@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import Share from './Share'
+import TagSosmed from './TagSosmed'
 
 const Isi = (props) => {
     return (
@@ -9,7 +9,7 @@ const Isi = (props) => {
                 <p>{props.text1}</p>
                 <h6>{props.paragraf}</h6>
                 <p>{props.text2}</p>
-                <Share href={props.to} />
+                <TagSosmed href={props.to} />
             </Container>
         </div>
     )
