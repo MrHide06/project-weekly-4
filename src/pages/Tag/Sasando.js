@@ -14,8 +14,8 @@ const Sasando = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonSasando darkenImage">
-                    <Container className="containerSasando">
+                <Jumbotron fluid className="jumbrotonSasando jumbotronPage darkenImage">
+                    <Container className="containerPage">
                         <h1 className="h1Sasando">Sasando</h1>
                         <p className="pSasando">
                         Saturday, Apr 10, 2020

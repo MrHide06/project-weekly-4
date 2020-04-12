@@ -14,8 +14,8 @@ const Triogili = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonTrio darkenImage">
-                    <Container className="containerTrio">
+                <Jumbotron fluid className="jumbrotonTrio jumbotronPage darkenImage">
+                    <Container className="containerPage">
                         <h1 className="h1Trio">Trio Gili</h1>
                         <p className="pTrio">
                         Saturday, Apr 10, 2020

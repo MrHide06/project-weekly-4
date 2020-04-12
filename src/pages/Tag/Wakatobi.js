@@ -10,8 +10,8 @@ const Wakatobi = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonWakatobi darkenImage">
-                    <Container className="containerWakatobi">
+                <Jumbotron fluid className="jumbrotonWakatobi jumbotronPage darkenImage">
+                    <Container className="containerPage">
                         <h1 className="h1Wakatobi">Taman Nasional Wakatobi</h1>
                         <p className="pWakatobi">
                         Saturday, Apr 10, 2020

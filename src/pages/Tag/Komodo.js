@@ -14,8 +14,8 @@ const Komodo = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonKomodo darkenImage">
-                    <Container className="containerKomodo">
+                <Jumbotron fluid className="jumbrotonKomodo jumbotronPage darkenImage">
+                    <Container className="containerPage">
                         <h1 className="h1Komodo">Komodo</h1>
                         <p className="pKomodo">
                         Saturday, Apr 10, 2020

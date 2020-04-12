@@ -6,8 +6,8 @@ import { Jumbotron, Container } from 'react-bootstrap'
 export default function Wayang() {
     return (
         <div>
-            <Jumbotron fluid className="jumbotronWayang">
-                <Container className="containerWayang">
+            <Jumbotron fluid className="jumbotronWayang jumbotronPage darkenImage">
+                <Container className="containerPage">
                     <h1 className="h1Wayang">Wayang Kulit</h1>
                     <p className="pWayang">
                         Saturday, Apr 10, 2020

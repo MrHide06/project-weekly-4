@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import UnsplashChild from './ApiChild'
+import PokemonChild from './ApiChild'
 import { Container } from 'react-bootstrap'
 
-class Unsplash extends Component {
+class Pokemon extends Component {
     constructor(){
         super();
         this.state = {
@@ -13,7 +13,7 @@ class Unsplash extends Component {
     componentDidMount() {
         axios
             .get(
-                "https://api.unsplash.com/photos/?client_id=U7R7xu3xiyfPEPxfPy6CibkBicYeLBg_1LYRE0Or0hU"
+                'https://digimon-api.herokuapp.com/api/digimon'
             )
             .then((data) => {
                 this.setState({ imgs: data.data });
@@ -26,14 +26,15 @@ class Unsplash extends Component {
         console.log(this.state);
         return (
             <div>
-                <Container classname="unsplash">
+                <Container classname="Pokemon">
                     {this.state.imgs.map((item, index) => (
                         <div className="main-content-area" key={index}>
                             <div className="container post-listing">
                                 <div className="row is-flex">
                                     <div className="col-sm-6 col-md-4 col-xs-12">
-                                        <UnsplashChild
-                                            photo={item.urls.small} title={item.user.name} 
+                                        <PokemonChild
+                                             photo={item.img} title={item.name} 
+                                            // fcd91ac18767190e0a6c9a802d165271
                                         />
                                     </div>
                                 </div>
@@ -45,4 +46,4 @@ class Unsplash extends Component {
         );
     }
 }
-export default Unsplash
+export default Pokemon
