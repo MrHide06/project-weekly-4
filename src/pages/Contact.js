@@ -27,7 +27,7 @@ const Contact = () => {
             <Container>
                 <Row>
                     <Col>
-                        <Kontak nama={"Wahid Jamaalii As Shidqi"} lokasi={"Jakarta"} email={" - "} />
+                        <Kontak nama={"Wahid Jamaalii As Shidqi"} lokasi={"Jakarta"} email={" wahid.091216@gmail.com "} />
                     </Col>
                     <Col>
                         <Kontak nama={"Muhamad Khairavi Riansyah"} lokasi={"Jakarta"} email={"mkhairavir@gmail.com"} />
