@@ -228,7 +228,7 @@
 	display: inline;
 	float: left;
 	width: 100%;
-	background-color: #fafafa;
+	background-color: #fdfdfd;
 	transition: 0.5s;
   margin-right: 20px;
   border-radius: 5px;
@@ -262,7 +262,7 @@
 
 .price-head p .dollar {
 
-	color: #efefef;
+	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
 
@@ -271,7 +271,7 @@
 
 .price-head p .value {
 
-	color: #efefef;
+	color: #fff;
 	font-size: 50px;
 	font-weight: normal;
 
@@ -280,10 +280,11 @@
 
 .price-head p .waktu {
 
-	color: #efefef;
+	color: #fff;
 	font-size: 15px;
 	font-weight: bolder;
 }
+
 
 .price-content {
 	display: inline;

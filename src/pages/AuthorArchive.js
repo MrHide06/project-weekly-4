@@ -32,7 +32,7 @@ const AuthorArchive = () => {
                         <Col>
                             <Profile
                                 src = {Ravi}
-                                text = 'Muhammad Khairavi'
+                                text = 'Muhamad Khairavi Riansyah'
                             />
                         </Col>
                         <Col>
