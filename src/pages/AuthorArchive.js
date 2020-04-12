@@ -16,7 +16,7 @@ const AuthorArchive = () => {
             <div>
                 <Jumbotron fluid className="jumbotronAuthor darkenImage">
                     <Container>
-                        <h1 className="h1Tag pt-5">AUTHOR ARCHIVE</h1>
+                        <h1 className="h1Tag pt-5">Author Archive</h1>
                     </Container>
                 </Jumbotron>
             </div>
