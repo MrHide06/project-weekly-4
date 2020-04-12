@@ -10,7 +10,7 @@ const Kontak = (props) => {
                             {props.nama}<br />
                             {props.lokasi}<br />
                             (gatau pin apaan) Pin- 743702<br />
-                            Email: <a href="mailto:impactbyte@gmail.com">{props.email}</a>
+                            Email: <a href={`mailto:${props.email}`}>{props.email}</a>
                             </p>
                         </div>
     )
