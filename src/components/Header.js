@@ -36,8 +36,8 @@ export default function Header() {
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         <NavDropdown title="API" id="basic-nav-dropdown">
-                            <NavDropdown.Item as={Link} to="/api/unsplash">API UNSPLASH</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">API</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/api/unsplash">API Unsplash</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/api/pokemon">API Pokemon</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     <Nav>
