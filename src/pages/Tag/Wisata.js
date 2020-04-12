@@ -8,7 +8,7 @@ const Wisata = (props) =>{
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbotronWisata">
+                <Jumbotron fluid className="jumbotronWisata darkenImage">
                     <Container className="containerWisata">
                         <h1 className="h1Tag">TEMPAT WISATA</h1>
                     </Container>

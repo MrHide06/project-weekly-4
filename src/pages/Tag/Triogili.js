@@ -14,7 +14,7 @@ const Triogili = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonTrio">
+                <Jumbotron fluid className="jumbrotonTrio darkenImage">
                     <Container className="containerTrio">
                         <h1 className="h1Trio">Trio Gili</h1>
                         <p className="pTrio">

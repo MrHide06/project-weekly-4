@@ -14,7 +14,7 @@ const Barisan = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonBarisan">
+                <Jumbotron fluid className="jumbrotonBarisan darkenImage">
                     <Container className="containerBarisan">
                         <h1 className="h1Barisan">Taman Nasional Bukit Barisan Selatan</h1>
                         <p className="pBarisan">

@@ -14,7 +14,7 @@ const Wakatobi = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonWakatobi">
+                <Jumbotron fluid className="jumbrotonWakatobi darkenImage">
                     <Container className="containerWakatobi">
                         <h1 className="h1Wakatobi">Taman Nasional Wakatobi</h1>
                         <p className="pWakatobi">

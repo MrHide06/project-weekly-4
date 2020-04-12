@@ -64,6 +64,29 @@
   border: 1px solid #00bcab;
 }
 
+.darkenImage {
+  display: inline-block;
+  color: white;
+  position: relative;
+  }
+
+  .darkenImage:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all .2s linear;
+  }
+
+  .darkenImage h1,
+  .darkenImage p {
+    position: relative;
+  }
+
 .price-content ul li {
   padding-left: 2px;
 }
@@ -144,6 +167,7 @@
   height: 200px;
   background-image: url(./images/cover.jpg);
   background-position: center;
+  display: block;
 }
 .h1Tag{
   text-align: center;
@@ -162,7 +186,7 @@
   background-image: url(./images/nightborobudur.jpg);
   background-position: center;
   display: block;
-  height: 330px;
+  height: 300px;
 }
 
 .h1Contact {
@@ -320,6 +344,7 @@ ul li:last-child {
   height: 200px;
   background-image: url(./images/prambanan.jpg);
   background-position: center;
+  display: block;
 }
 .linkeditingWisata{
   color:black;
@@ -397,7 +422,7 @@ ul li:last-child {
 }
 //Trio
 .jumbrotonTrio{
-  background-image: url(./images/trio-gili.jpg);
+  background-image: url(./images/triiogili.jpg);
   height: 450px;
   background-position: center;
   background-repeat: no-repeat;
@@ -473,11 +498,11 @@ ul li:last-child {
 }
 .h1Kete{
   text-align: center;
-  color: #000;  
+  color: #fff;  
 }
 .pKete{
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 .containerKete{
     text-align: center;
@@ -532,6 +557,7 @@ ul li:last-child {
   height: 200px;
   background-image: url(./images/batik.jpg);
   background-position: center;
+  display: block;
 }
 .linkeditingKebudayaan{
   color:black;
@@ -565,6 +591,7 @@ ul li:last-child {
   height: 200px;
   background-image: url(./images/harimau.jpg);
   background-position: center;
+  display: block;
 }
 .linkeditingEpidemik{
   color:black;
@@ -582,6 +609,7 @@ ul li:last-child {
   height: 200px;
   background-image: url(./images/taman-baluran.jpg);
   background-position: center;
+  display: block;
 }
 .linkeditingTaman{
   color:black;
@@ -671,11 +699,11 @@ ul li:last-child {
 }
 .h1Sasando{
   text-align: center;
-  color: #000;  
+  color: #fff;  
 }
 .pSasando{
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 .containerSasando{
     text-align: center;
@@ -994,8 +1022,10 @@ ul li:last-child {
 // Page Author Archive
 .jumbotronAuthor{  
   height: 200px;
-  background-image: url(./images/taman-wakatobi.jpg);
+  background-image: url(./images/rinjaniMount.jpg);
   background-position: center;
+  display: block;
+
 }
 .figure{
   width: 250px;

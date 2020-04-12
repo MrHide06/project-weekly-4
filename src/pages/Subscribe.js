@@ -39,7 +39,7 @@ const Subscribe = () => {
     return (
 
         <div>
-            <Jumbotron fluid className="jSubs">
+            <Jumbotron fluid className="jSubs darkenImage">
                 <Container className="containerJumbroton">
                     <h1 className="h1Subs">Subscribe</h1>
                     <p className="pSubs">

@@ -7,7 +7,7 @@ const Taman = (props) =>{
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbotronTaman">
+                <Jumbotron fluid className="jumbotronTaman darkenImage">
                     <Container className="containerTaman">
                         <h1 className="h1Tag">Taman Nasional</h1>
                     </Container>

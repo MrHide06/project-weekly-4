@@ -14,7 +14,7 @@ const AuthorArchive = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbotronAuthor">
+                <Jumbotron fluid className="jumbotronAuthor darkenImage">
                     <Container>
                         <h1 className="h1Tag">AUTHOR ARCHIVE</h1>
                     </Container>

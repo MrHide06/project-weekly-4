@@ -14,7 +14,7 @@ const Elang = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonElang">
+                <Jumbotron fluid className="jumbrotonElang darkenImage">
                     <Container className="containerElang">
                         <h1 className="h1Elang">Elang Jawa</h1>
                         <p className="pElang">

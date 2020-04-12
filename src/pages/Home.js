@@ -18,7 +18,7 @@ const Home = (props) => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbroton">
+                <Jumbotron fluid className="jumbroton darkenImage">
                     <Container className="containerJumbroton">
                         <h1 className="h1Jumbroton">Selamat Datang</h1>
                         <p className="pJumbroton">

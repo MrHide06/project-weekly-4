@@ -9,7 +9,6 @@ const Kontak = (props) => {
                             Impact Byte<br/>
                             {props.nama}<br />
                             {props.lokasi}<br />
-                            (gatau pin apaan) Pin- 743702<br />
                             Email: <a href={`mailto:${props.email}`}>{props.email}</a>
                             </p>
                         </div>
@@ -19,7 +18,7 @@ const Contact = () => {
     return (
         <div>
 
-            <Jumbotron fluid className="jumbotron jContact">
+            <Jumbotron fluid className="jumbotron jContact darkenImage">
                 <Container className="containerJumbroton">
                     <h1 className="h1Contact">Contact</h1>
                 </Container>

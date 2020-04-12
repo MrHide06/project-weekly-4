@@ -8,7 +8,7 @@ const Kebudayaan = (props) =>{
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbotronKebudayaan">
+                <Jumbotron fluid className="jumbotronKebudayaan darkenImage">
                     <Container className="containerKebudayaan">
                         <h1 className="h1Tag">KEBUDAYAAN</h1>
                     </Container>

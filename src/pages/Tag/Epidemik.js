@@ -7,7 +7,7 @@ const Epidemik = (props) =>{
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbotronEpidemik">
+                <Jumbotron fluid className="jumbotronEpidemik darkenImage">
                     <Container className="containerEpidemik">
                         <h1 className="h1Tag">Epidemik</h1>
                     </Container>

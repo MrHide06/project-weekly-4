@@ -14,7 +14,7 @@ const Komodo = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonKomodo">
+                <Jumbotron fluid className="jumbrotonKomodo darkenImage">
                     <Container className="containerKomodo">
                         <h1 className="h1Komodo">Komodo</h1>
                         <p className="pKomodo">

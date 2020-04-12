@@ -14,7 +14,7 @@ const Gamelan = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonGamelan">
+                <Jumbotron fluid className="jumbrotonGamelan darkenImage">
                     <Container className="containerGamelan">
                         <h1 className="h1Gamelan">Gamelan</h1>
                         <p className="pGamelan">

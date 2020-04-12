@@ -14,7 +14,7 @@ const Sasando = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonSasando">
+                <Jumbotron fluid className="jumbrotonSasando darkenImage">
                     <Container className="containerSasando">
                         <h1 className="h1Sasando">Sasando</h1>
                         <p className="pSasando">
