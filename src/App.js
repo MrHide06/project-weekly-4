@@ -29,6 +29,7 @@ import Wakatobi from './pages/Tag/Wakatobi'
 import Wayang from './pages/Tag/Wayang'
 import Saman from './pages/Tag/Saman'
 import Piring from './pages/Tag/Piring'
+import Unsplash from './pages/Unsplash'
 
 function App() {
   return (
@@ -102,6 +103,9 @@ function App() {
             </Route>
             <Route path="/piring">
               <Piring />
+            </Route>
+            <Route path="/api/unsplash">
+              <Unsplash />
             </Route>
             <Route path="/signin">
               <SignIn />
