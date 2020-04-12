@@ -9,7 +9,7 @@ const HomeChild = (props) => {
     return (
         <>
             <Card className="card">
-                <CardImg variant="top" height={200} src={props.photo} />
+                <CardImg variant="top" src={props.photo} />
                 <Card.Body className="cardBody">
                     <Card.Title>{props.title}</Card.Title>
                 </Card.Body>
