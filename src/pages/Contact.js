@@ -18,7 +18,17 @@ const Kontak = (props) => {
 const Contact = () => {
     return (
         <div>
-        <Map />
+    
+            <Jumbotron fluid className="jumbotron jContact darkenImage">
+                <Container className="containerJumbroton">
+                    <h1 className="h1Contact pb-5">Contact</h1>
+                </Container>
+            </Jumbotron>
+            <Container>
+                <Row>
+                    <Map />
+                </Row>
+            </Container>
         </div>
     )
 }

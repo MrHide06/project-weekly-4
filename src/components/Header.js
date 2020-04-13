@@ -35,10 +35,7 @@ export default function Header() {
                         <Nav.Link as={Link} to="/authorarchive">Author Archive</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                        <NavDropdown title="API" id="basic-nav-dropdown">
-                            <NavDropdown.Item as={Link} to="/api/unsplash">API Unsplash</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to="/api/pokemon">API Pokemon</NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link as={Link} to="/api/unsplash">Unsplash</Nav.Link>
                     </Nav>
                     <Nav>
                         <Button className="px-3" variant="outline-dark" size="sm" style={{ marginRight: '3px', border: "1px solid #ccc", color:"#999"}} as={Link} to="/signin">Sign In</Button>
