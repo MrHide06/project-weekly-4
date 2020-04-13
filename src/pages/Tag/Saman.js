@@ -6,8 +6,8 @@ import { Jumbotron, Container } from 'react-bootstrap'
 export default function Saman() {
     return (
         <div>
-            <Jumbotron fluid className="jumbotronSaman">
-                <Container className="containerSaman">
+            <Jumbotron fluid className="jumbotronSaman jumbotronPage darkenImage">
+                <Container className="containerPage">
                     <h1 className="h1Saman">Tari Saman</h1>
                     <p className="pSaman">
                         Saturday, Apr 10, 2020

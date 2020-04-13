@@ -5,8 +5,8 @@ import { Jumbotron, Container } from 'react-bootstrap'
 export default function Piring() {
     return (
         <div>
-            <Jumbotron fluid className="jumbotronPiring">
-                <Container className="containerPiring">
+            <Jumbotron fluid className="jumbotronPiring jumbotronPage darkenImage">
+                <Container className="containerPage">
                     <h1 className="h1Piring">Tari Piring</h1>
                     <p className="pPiring">
                         Saturday, Apr 10, 2020

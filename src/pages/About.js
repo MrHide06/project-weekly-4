@@ -1,8 +1,5 @@
 import React from 'react'
-import { Jumbotron, Container, Figure } from 'react-bootstrap'
-import FigureImage from 'react-bootstrap/FigureImage'
-
-import Pesona from '../images/arti-pesona.jpg'
+import { Jumbotron, Container, Row } from 'react-bootstrap'
 
 
 const About = () => {
@@ -16,14 +13,20 @@ const About = () => {
                 </Jumbotron>
             </div>
             <div>
-                <Container>
-                    <Figure>
-                        <FigureImage
-                            src={Pesona}
-                            width={4000}
-                            height={3000}
-                        />
-                    </Figure>
+                <Container className="col-md-4">
+                    <h2>Pesona Indonesia</h2>
+                    <p>Website ini berisi tentang Kebudayaan, Hewan Epidemik, Tempat Wisata, Taman Nasional, dan Alat Musik yang ada di Indonesia.</p>
+                    <br/>
+                    <h2>Some feature</h2>
+                    <p>Clean and modern design.<br/>
+                    Minimal and reader friendly.<br/>
+                    100% responsive.<br/>
+                    supports image logo.<br/>
+                    Previous and next post link in single post view.<br/>
+                    Supports inbuilt navigation system.<br/>
+                    Blog Cover and blog description.<br/>
+                    Tag image and tag description.<br/>
+                    </p>
                 </Container>
             </div>
         </div>

@@ -30,7 +30,8 @@ import Wayang from './pages/Tag/Wayang'
 import Saman from './pages/Tag/Saman'
 import Piring from './pages/Tag/Piring'
 import Unsplash from './pages/Unsplash'
-// import Pokemon from './pages/Pokemon'
+
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <div className="content-wrap">
           <Router>
           <Header />
+          <ScrollToTop>
           <Switch>
             <Route exact path="/">
               <Home />
@@ -122,6 +124,7 @@ function App() {
             </Route>
             
           </Switch>
+          </ScrollToTop>
           <Footer />
           </Router>      
         </div>

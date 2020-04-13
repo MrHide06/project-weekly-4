@@ -14,8 +14,8 @@ const Sentani = () => {
     return (
         <div>
             <div>
-                <Jumbotron fluid className="jumbrotonSentani darkenImage">
-                    <Container className="containerSentani">
+                <Jumbotron fluid className="jumbrotonSentani jumbotronPage darkenImage">
+                    <Container className="containerPage">
                         <h1 className="h1Sentani">Danau Sentani</h1>
                         <p className="pSentani">
                         Saturday, Apr 10, 2020

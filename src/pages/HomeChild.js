@@ -21,4 +21,4 @@ const HomeChild = (props) => {
         </>
     )
 }
-export default HomeChild
+export default HomeChild;

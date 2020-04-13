@@ -68,27 +68,45 @@
   display: inline-block;
   color: white;
   position: relative;
-  }
+}
 
-  .darkenImage:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.3);
-    transition: all .2s linear;
-  }
+.darkenImage:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all .2s linear;
+}
 
-  .darkenImage h1,
-  .darkenImage p {
-    position: relative;
-  }
+.darkenImage h1,
+.darkenImage p {
+  position: relative;
+}
 
 .price-content ul li {
   padding-left: 2px;
+}
+
+.jumbotronPage{
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.containerPage{
+  text-align: center;
+  width: 100%;
+  padding-top: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 //Style Home
@@ -228,7 +246,7 @@
 	display: inline;
 	float: left;
 	width: 100%;
-	background-color: #fafafa;
+	background-color: #fdfdfd;
 	transition: 0.5s;
   margin-right: 20px;
   border-radius: 5px;
@@ -262,7 +280,7 @@
 
 .price-head p .dollar {
 
-	color: #efefef;
+	color: #fff;
 	font-size: 20px;
 	font-weight: bold;
 
@@ -271,7 +289,7 @@
 
 .price-head p .value {
 
-	color: #efefef;
+	color: #fff;
 	font-size: 50px;
 	font-weight: normal;
 
@@ -280,10 +298,11 @@
 
 .price-head p .waktu {
 
-	color: #efefef;
+	color: #fff;
 	font-size: 15px;
 	font-weight: bolder;
 }
+
 
 .price-content {
 	display: inline;
@@ -350,9 +369,6 @@ ul li:last-child {
 //Sentani
 .jumbrotonSentani{
   background-image: url(./images/danau-sentani.jpg);
-  height: 450px;
-  background-position: center;
-  display: block;
 }
 .h1Sentani{
   color: #fff;  
@@ -360,15 +376,7 @@ ul li:last-child {
 .pSentani{
     color: #fff;
 }
-.containerSentani{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .containerSen{
   text-align: justify;
   width:750px;
@@ -414,45 +422,18 @@ ul li:last-child {
 //Trio
 .jumbrotonTrio{
   background-image: url(./images/trio-gili.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
 }
+
 .h1Trio{
   text-align: center;
   color: #fff;  
 }
+
 .pTrio{
   text-align: center;
   color: #fff;
 }
-.containerTrio{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.containerTri{
-  text-align: justify;
-  width:750px;
-}
 
-.profileMedia{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  border: 0.5px solid grey;
-  border-radius: 10px;
-  // width: 500px;
-  // margin-right: 7px;
-  // margin-left: 7px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
 .fontsumber{
   margin-right: 50px;
 }
@@ -481,11 +462,6 @@ ul li:last-child {
 
 .jumbrotonKete{
   background-image: url(./images/tana-toraja.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
 }
 .h1Kete{
   text-align: center;
@@ -495,31 +471,12 @@ ul li:last-child {
   text-align: center;
   color: #fff;
 }
-.containerKete{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .containerKet{
   text-align: justify;
   width:750px;
 }
 
-.profileMedia{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  border: 0.5px solid grey;
-  border-radius: 10px;
-  // width: 500px;
-  // margin-right: 7px;
-  // margin-left: 7px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
 .fontsumber{
   margin-right: 50px;
 }
@@ -581,11 +538,7 @@ ul li:last-child {
 //Gamelan
 .jumbrotonGamelan{
   background-image: url(./images/gamelan.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+
 }
 .h1Gamelan{
   text-align: center;
@@ -595,31 +548,12 @@ ul li:last-child {
   text-align: center;
   color: #fff;
 }
-.containerGamelan{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .containerGame{
   text-align: justify;
   width:750px;
 }
 
-.profileMedia{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  border: 0.5px solid grey;
-  border-radius: 10px;
-  // width: 500px;
-  // margin-right: 7px;
-  // margin-left: 7px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
 .fontsumber{
   margin-right: 50px;
 }
@@ -647,11 +581,7 @@ ul li:last-child {
 //Sasando
 .jumbrotonSasando{
   background-image: url(./images/sasando.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+
 }
 .h1Sasando{
   text-align: center;
@@ -661,31 +591,12 @@ ul li:last-child {
   text-align: center;
   color: #fff;
 }
-.containerSasando{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .containerSasan{
   text-align: justify;
   width:750px;
 }
 
-.profileMedia{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  border: 0.5px solid grey;
-  border-radius: 10px;
-  // width: 500px;
-  // margin-right: 7px;
-  // margin-left: 7px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
 .fontsumber{
   margin-right: 50px;
 }
@@ -714,11 +625,7 @@ ul li:last-child {
 //Komodo
 .jumbrotonKomodo{
   background-image: url(./images/komodo.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+
 }
 .h1Komodo{
   text-align: center;
@@ -728,31 +635,12 @@ ul li:last-child {
   text-align: center;
   color: #fff;
 }
-.containerKomodo{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .containerKomo{
   text-align: justify;
   width:750px;
 }
 
-.profileMedia{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  border: 0.5px solid grey;
-  border-radius: 10px;
-  // width: 500px;
-  // margin-right: 7px;
-  // margin-left: 7px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
 .fontsumber{
   margin-right: 50px;
 }
@@ -780,11 +668,7 @@ ul li:last-child {
 //Elang
 .jumbrotonElang{
   background-image: url(./images/elang-jawa.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+
 }
 .h1Elang{
   text-align: center;
@@ -794,31 +678,12 @@ ul li:last-child {
   text-align: center;
   color: #fff;
 }
-.containerElang{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .containerEla{
   text-align: justify;
   width:750px;
 }
 
-.profileMedia{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  border: 0.5px solid grey;
-  border-radius: 10px;
-  // width: 500px;
-  // margin-right: 7px;
-  // margin-left: 7px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
 .fontsumber{
   margin-right: 50px;
 }
@@ -846,11 +711,7 @@ ul li:last-child {
 //Barisan
 .jumbrotonBarisan{
   background-image: url(./images/taman-barisan.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+
 }
 .h1Barisan{
   text-align: center;
@@ -860,31 +721,12 @@ ul li:last-child {
   text-align: center;
   color: #fff;
 }
-.containerBarisan{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .containerBaris{
   text-align: justify;
   width:750px;
 }
 
-.profileMedia{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  border: 0.5px solid grey;
-  border-radius: 10px;
-  // width: 500px;
-  // margin-right: 7px;
-  // margin-left: 7px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
 .fontsumber{
   margin-right: 50px;
 }
@@ -912,11 +754,7 @@ ul li:last-child {
 //Wakatobi
 .jumbrotonWakatobi{
   background-image: url(./images/taman-wakatobi.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
+
 }
 .h1Wakatobi{
   text-align: center;
@@ -926,31 +764,13 @@ ul li:last-child {
   text-align: center;
   color: #f9f9f9;
 }
-.containerWakatobi{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .containerWaka{
   text-align: justify;
   width:750px;
 }
 
-.profileMedia{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-  border: 0.5px solid grey;
-  border-radius: 10px;
-  // width: 500px;
-  // margin-right: 7px;
-  // margin-left: 7px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-}
+
 .fontsumber{
   margin-right: 50px;
 }
@@ -1000,81 +820,18 @@ ul li:last-child {
 //Wayang
 .jumbotronWayang{
   background-image: url(./images/wayang-kulit.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
 }
-.h1Wayang{
-  text-align: center;
-  color: #000;  
-}
-.pWayang{
-  text-align: center;
-  color: #000;
-}
-.containerWayang{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 //Saman
 .jumbotronSaman{
   background-image: url(./images/tari-saman.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
 }
-.h1Saman{
-  text-align: center;
-  color: #000;  
-}
-.pSaman{
-  text-align: center;
-  color: #000;
-}
-.containerSaman{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 //Piring
 .jumbotronPiring{
   background-image: url(./images/tari-piring.jpg);
-  height: 450px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
 }
-.h1Piring{
-  text-align: center;
-  color: #000;  
-}
-.pPiring{
-  text-align: center;
-  color: #000;
-}
-.containerPiring{
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 //Isi
 .containerIsi{
   text-align: justify;
