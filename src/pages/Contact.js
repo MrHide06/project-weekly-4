@@ -1,5 +1,6 @@
 import React from 'react'
 import { Jumbotron, Container, Col, Row } from 'react-bootstrap'
+import Map from './Map'
 const Kontak = (props) => {
     return (
         <div class="post-content">
@@ -24,17 +25,7 @@ const Contact = () => {
                 </Container>
             </Jumbotron>
             <Container>
-                <Row>
-                    <Col>
-                        <Kontak nama={"Wahid Jamaalii As Shidqi"} lokasi={"Jakarta"} email={" wahid.091216@gmail.com "} />
-                    </Col>
-                    <Col>
-                        <Kontak nama={"Muhamad Khairavi Riansyah"} lokasi={"Jakarta"} email={"mkhairavir@gmail.com"} />
-                    </Col>
-                    <Col>
-                        <Kontak nama={"Zakiy Almaulidani Ruwenda"} lokasi={"Jakarta"} email={"zakiydani87@gmail.com"} />
-                    </Col>
-                </Row>
+                <Map />
             </Container>
         </div>
     )

@@ -30,7 +30,7 @@ import Wayang from './pages/Tag/Wayang'
 import Saman from './pages/Tag/Saman'
 import Piring from './pages/Tag/Piring'
 import Unsplash from './pages/Unsplash'
-import Pokemon from './pages/Pokemon'
+// import Pokemon from './pages/Pokemon'
 
 function App() {
   return (
@@ -107,9 +107,6 @@ function App() {
             </Route>
             <Route path="/api/unsplash">
               <Unsplash />
-            </Route>
-            <Route path="/api/pokemon">
-              <Pokemon />
             </Route>
             <Route path="/signin">
               <SignIn />
