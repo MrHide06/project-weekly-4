@@ -1,23 +1,34 @@
 import React, { Component } from 'react'
-import {Map, GoogleApiWrapper} from 'google-maps-react'
+import {Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react'
 
-const mapStyles={
-    width: '100%',
-    heiht: '100%'
-};
+
 
 class MapContainer extends Component {
     render() {
+        const style = {
+        width: '100%',
+        height: '100%'
+      }
+
+      if (!this.props.loaded) {
+        return <div>Loading props...</div>
+      }
         return (
-            <Map
-                google={this.props.google}
-                zoom={14}
-                style={mapStyles}
-                initialCenter={{
-                    lat: -1.2884,
-                    lng: 36.8233
-                }}
-            />
+            <div style={style}>
+            {(!this.props.loaded) ? <div>Loading props...</div> : null}
+                <Map 
+                    google={window.google} 
+
+                    initialCenter={{
+                        lat: 44.498955,
+                        lng: 11.327591
+                    }}
+                    style={{
+                        width: '100%',
+                        height: '100%'
+                    }}
+                />
+            </div>
         )
     }
 }
